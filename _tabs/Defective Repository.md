@@ -17,106 +17,507 @@ order: 2
       </tr>
     </thead>
     <tbody>
+    <tr>
+<td>1</td>
+<td>sklearn.compose</td>
+<td>Crash</td>
+<td><=0.19.2</td>
+<td>Breaking change</td>
+</tr>
+
+<tr>
+<td>2</td>
+<td>sklearn.emenable.RandomForestRegressor</td>
+<td>Crash</td>
+<td><0.22</td>
+<td>Breaking change</td>
+</tr>
+
+<tr>
+<td>3</td>
+<td>sklearn.ensemble.HistGradientBoostingRegressor</td>
+<td>Crash</td>
+<td><=0.24.2</td>
+<td>Breaking change</td>
+</tr>
+
+<tr>
+<td>4</td>
+<td>sklearn.preprocessing.OrdinalEncoder</td>
+<td>Crash</td>
+<td><=0.19.2</td>
+<td>Breaking change</td>
+</tr>
+
+<tr>
+<td>5</td>
+<td>lightgbm.log_evaluation</td>
+<td>Crash</td>
+<td><=3.2.1</td>
+<td>Breaking change</td>
+</tr>
+
+<tr>
+<td>6</td>
+<td>sklearn.metrics.mean_squared_error</td>
+<td>Crash</td>
+<td><=0.21.3</td>
+<td>Breaking change</td>
+</tr>
+
+<tr>
+<td>7</td>
+<td>keras.models.Sequential</td>
+<td>Crash</td>
+<td>==2.4.1</td>
+<td>Breaking change</td>
+</tr>
+
+<tr>
+<td>8</td>
+<td>keras.models.Sequential</td>
+<td>Crash</td>
+<td>==2.3.1</td>
+<td>Breaking change</td>
+</tr>
+
+<tr>
+<td>9</td>
+<td>tensorflow.io.read_file</td>
+<td>Crash</td>
+<td>==2.3.1</td>
+<td>Breaking change</td>
+</tr>
+
+<tr>
+<td>10</td>
+<td>tensorflow.io.read_file</td>
+<td>Crash</td>
+<td>==2.3.1</td>
+<td>Breaking change</td>
+</tr>
+
+<tr>
+<td>11</td>
+<td>tensorflow.ConfigProto</td>
+<td>Crash</td>
+<td>==2.0.0</td>
+<td>Breaking change</td>
+</tr>
+
+<tr>
+<td>12</td>
+<td>keras.models.Sequential.compile</td>
+<td>Crash</td>
+<td><=2.1.0</td>
+<td>Breaking change</td>
+</tr>
+
+<tr>
+<td>13</td>
+<td>tensorflow.keras.layers.experimental.preprocessing</td>
+<td>Crash</td>
+<td><2.0.0</td>
+<td>Breaking change</td>
+</tr>
+
+<tr>
+<td>14</td>
+<td>catboost.CatBoostRegressor</td>
+<td>Crash</td>
+<td><=0.15.2</td>
+<td>Breaking change</td>
+</tr>
+
+<tr>
+<td>15</td>
+<td>sklearn.metrics.ConfusionMatrixDisplay</td>
+<td>Crash</td>
+<td><=0.22.1,>0.21.3</td>
+<td>Breaking change</td>
+</tr>
+
+<tr>
+<td>16</td>
+<td>sklearn.metrics.ConfusionMatrixDisplay</td>
+<td>Crash</td>
+<td><=0.21.3</td>
+<td>Breaking change</td>
+</tr>
+
+<tr>
+<td>17</td>
+<td>tensorflow.keras.layers.Dense</td>
+<td>Crash</td>
+<td><=2.1.0</td>
+<td>Breaking change</td>
+</tr>
+
+<tr>
+<td>18</td>
+<td>keras.Sequential</td>
+<td>Crash</td>
+<td>==2.3.1</td>
+<td>Breaking change</td>
+</tr>
+
+<tr>
+<td>19</td>
+<td>tensorflow.keras.layers.Dense</td>
+<td>Crash</td>
+<td><=2.4.1</td>
+<td>Breaking change</td>
+</tr>
+
+<tr>
+<td>20</td>
+<td>tensorflow.keras.models.load_model</td>
+<td>Crash</td>
+<td>==2.1.0</td>
+<td>Breaking change</td>
+</tr>
+
+<tr>
+<td>21</td>
+<td>keras.layers.Conv1DTranspose</td>
+<td>Crash</td>
+<td><=2.3.1</td>
+<td>Breaking change</td>
+</tr>
+
+<tr>
+<td>22</td>
+<td>tensorflow.keras.initializers.HeNormal</td>
+<td>Crash</td>
+<td><=2.2.0</td>
+<td>Breaking change</td>
+</tr>
+
+<tr>
+<td>23</td>
+<td>tensorflow.keras.layers.MultiHeadAttention</td>
+<td>Crash</td>
+<td><=2.3.1</td>
+<td>Breaking change</td>
+</tr>
+
+<tr>
+<td>24</td>
+<td>tensorflow.tf.keras.layers.Dense</td>
+<td>Crash</td>
+<td><=2.3.1</td>
+<td>Breaking change</td>
+</tr>
+
+<tr>
+<td>25</td>
+<td>tensorflow.keras.Model.fit</td>
+<td>Crash</td>
+<td><=2.1.0</td>
+<td>Breaking change</td>
+</tr>
+
+<tr>
+<td>26</td>
+<td>tensorflow.python.keras.savingsave.load model</td>
+<td>Crash</td>
+<td><2.2.0</td>
+<td>Breaking change</td>
+</tr>
+
+<tr>
+<td>27</td>
+<td>tensorflow.keras.layers.experimental.EinsumDense</td>
+<td>Crash</td>
+<td><=2.2.0</td>
+<td>Breaking change</td>
+</tr>
+
+<tr>
+<td>28</td>
+<td>lightgbm.LGBMClassifier.feature_name_</td>
+<td>Crash</td>
+<td><=2.3.1</td>
+<td>Breaking change</td>
+</tr>
+
+<tr>
+<td>29</td>
+<td>keras.callbacks.ModelCheckpoint</td>
+<td>Crash</td>
+<td><=2.3.1</td>
+<td>Breaking change</td>
+</tr>
+
+<tr>
+<td>30</td>
+<td>sklearn.feature_extraction.text.CountVectorizer.get_feature_names_out</td>
+<td>Crash</td>
+<td><=2.4.2</td>
+<td>Breaking change</td>
+</tr>
+
+<tr>
+<td>31</td>
+<td>tensorflow.keras.losses.SparseCategoricalCrossentropy</td>
+<td>Crash</td>
+<td><=1.13.1</td>
+<td>Breaking change</td>
+</tr>
+
+<tr>
+<td>32</td>
+<td>joblib.delayed</td>
+<td>Crash</td>
+<td>==0.11</td>
+<td>Breaking change</td>
+</tr>
+
+<tr>
+<td>33</td>
+<td>sklearn.ensemble.VotingRegressor</td>
+<td>Crash</td>
+<td><=0.20.3</td>
+<td>Breaking change</td>
+</tr>
+
+<tr>
+<td>34</td>
+<td>sklearn.ensemble.StackingRegressor</td>
+<td>Crash</td>
+<td><=0.21.3</td>
+<td>Breaking change</td>
+</tr>
+
+<tr>
+<td>35</td>
+<td>optuna.integration.lightgbm.Dataset</td>
+<td>Crash</td>
+<td><=2.10.0</td>
+<td>Breaking change</td>
+</tr>
+
+<tr>
+<td>36</td>
+<td>keras.layers.normalization.BatchNormalization</td>
+<td>Crash</td>
+<td>>=2.7.0</td>
+<td>Breaking change</td>
+</tr>
+
+<tr>
+<td>37</td>
+<td>sklearn.metrics.plot_confusion_matrix</td>
+<td>Crash</td>
+<td><=0.21.3</td>
+<td>Breaking change</td>
+</tr>
+
+<tr>
+<td>38</td>
+<td>transformers.get_linear_schedule_with_warmup</td>
+<td>Crash</td>
+<td>==2.1.1</td>
+<td>Breaking change</td>
+</tr>
+
+<tr>
+<td>39</td>
+<td>transformers.get_cosine_schedule_with_warmup</td>
+<td>Crash</td>
+<td>==2.1.1</td>
+<td>Breaking change</td>
+</tr>
+
+<tr>
+<td>40</td>
+<td>sklearn.impute.KNNImputer</td>
+<td>Crash</td>
+<td><=0.21.3</td>
+<td>Breaking change</td>
+</tr>
+
+<tr>
+<td>41</td>
+<td>eli5.show_weights</td>
+<td>Crash</td>
+<td>==0.11.0</td>
+<td>Breaking change</td>
+</tr>
+
+<tr>
+<td>42</td>
+<td>umap.UMAP</td>
+<td>Crash</td>
+<td>==0.1.1</td>
+<td>Breaking change</td>
+</tr>
+
+<tr>
+<td>43</td>
+<td>sklearn.ensemble.HistGradientBoostingClassifier</td>
+<td>Crash</td>
+<td><=0.24.2</td>
+<td>Breaking change</td>
+</tr>
+
+<tr>
+<td>44</td>
+<td>sklearn.metrics.plot_roc_curve</td>
+<td>Crash</td>
+<td><=0.21.3</td>
+<td>Breaking change</td>
+</tr>
+
+<tr>
+<td>45</td>
+<td>category_encoders.CountEncode</td>
+<td>Crash</td>
+<td><=2.0.0</td>
+<td>Breaking change</td>
+</tr>
+
+<tr>
+<td>46</td>
+<td>tensorflow.keras.layers.TextVectorization</td>
+<td>Crash</td>
+<td><=2.4.1</td>
+<td>Breaking change</td>
+</tr>
+
+<tr>
+<td>47</td>
+<td>tensorflow.keras.metrics.AUC</td>
+<td>Crash</td>
+<td><=1.13.1</td>
+<td>Breaking change</td>
+</tr>
+
+<tr>
+<td>48</td>
+<td>tensorflow.random.set_seed</td>
+<td>Crash</td>
+<td><=2.0.0</td>
+<td>Breaking change</td>
+</tr>
+
+<tr>
+<td>49</td>
+<td>catboost.CatBoostClassifier</td>
+<td>Crash</td>
+<td><=0.12.2</td>
+<td>Breaking change</td>
+</tr>
+
+<tr>
+<td>50</td>
+<td>sklearn.metrics.confusion_matrix</td>
+<td>Crash</td>
+<td><=0.21.3</td>
+<td>Breaking change</td>
+</tr>
+
+
       <tr>
-        <td>1</td>
+        <td>111</td>
         <td>sklearn.ensemble.HistGradientBoostingClassifier</td>
         <td>memory</td>
         <td>< 0.24.2</td>
         <td>Technical Debt</td>
       </tr>
       <tr>
-        <td>2</td>
+        <td>21</td>
         <td>sklearn.ensemble.HistGradientBoostingRegressor</td>
         <td>memory</td>
         <td>< 0.24.2</td>
         <td>Technical Debt</td>
       </tr>
-       <tr><td>3</td>
+       <tr><td>34</td>
         <td>sklearn.neighbors.KNeighborsClassifier</td>
         <td>memory</td>
         <td><0.24.2</td>
         <td>API Optimization</td></tr>
- <tr><td>4</td>
+ <tr><td>45</td>
         <td>category_encoders.TargetEncoder</td>
         <td>memory</td>
         <td>>=2.0.0</td>
         <td>API Optimization</td></tr>
- <tr><td>5</td>
+ <tr><td>57</td>
         <td>sklearn.svm.SVC</td>
         <td>score</td>
         <td>>=0.22</td>
         <td>API Optimization</td></tr>
- <tr><td>6</td>
+ <tr><td>68</td>
         <td>catboost.CatBoostRegressor</td>
         <td>score</td>
         <td>>0.25.1</td>
         <td>API Optimization</td></tr>
- <tr><td>7</td>
+ <tr><td>70</td>
         <td>sklearn.neural_network.MLPClassifier</td>
         <td>memory</td>
         <td>>=0.22</td>
         <td>API Optimization</td></tr>
- <tr><td>8</td>
+ <tr><td>81</td>
         <td>category_encoders.ordinal.OrdinalEncoder</td>
         <td>memory</td>
         <td><=2.1.0</td>
         <td>API Optimization</td></tr>
- <tr><td>9</td>
+ <tr><td>91</td>
         <td>category_encoders.woe.WOEEncoder</td>
         <td>memory</td>
         <td><=2.1.0</td>
         <td>API Optimization</td></tr>
- <tr><td>10</td>
+ <tr><td>102</td>
         <td>lightgbm.train</td>
         <td>memory</td>
         <td>>2.2.3</td>
         <td>API Optimization</td></tr>
- <tr><td>11</td>
+ <tr><td>113</td>
         <td>sklearn.linear_model.LinearRegression</td>
         <td>Time,memory</td>
         <td>>=0.20</td>
         <td>API Optimization</td></tr>
- <tr><td>12</td>
+ <tr><td>122</td>
         <td>sklearn.linear_model.LogisticRegressionCV</td>
         <td>Time,memory</td>
         <td>>0.21.3</td>
         <td>API Optimization</td></tr>
- <tr><td>13</td>
+ <tr><td>131</td>
         <td>sklearn.impute.SimpleImputer</td>
         <td>Time</td>
         <td></td>
         <td>API Optimization</td></tr>
- <tr><td>14</td>
+ <tr><td>141</td>
         <td>category_encoders.one_hot.OneHotEncoder</td>
         <td>memory</td>
         <td><=2.1.0</td>
         <td>API Optimization</td></tr>
- <tr><td>15</td>
+ <tr><td>151</td>
         <td>lightgbm.LGBMClassifier</td>
         <td>Time,memory</td>
         <td></td>
         <td>API Optimization</td></tr>
- <tr><td>16</td>
+ <tr><td>161</td>
         <td>category_encoders.leave_one_out.LeaveOneOutEncoder</td>
         <td>memory</td>
         <td><=2.1.0</td>
         <td>API Optimization</td></tr>
- <tr><td>17</td>
+ <tr><td>171</td>
         <td>sklearn.feature_extraction.text.CountVectorizer</td>
         <td>Time</td>
         <td><1.0.1</td>
         <td>API Optimization</td></tr>
-<tr><td>18</td>
+<tr><td>181</td>
         <td>catboost.CatBoostClassifier</td>
         <td>Time</td>
         <td>>=0.20.2</td>
         <td>API Optimization</td></tr>
-<tr><td>19</td>
+<tr><td>191</td>
         <td>sklearn.preprocessing.LabelEncoder</td>
         <td>memory</td>
         <td></td>
         <td>API Optimization</td></tr>
-<tr><td>20</td>
+<tr><td>201</td>
         <td>sklearn.feature_selection.mutual_info_regression</td>
         <td>memory</td>
         <td></td>
@@ -126,92 +527,92 @@ order: 2
         <td>memory</td>
         <td></td>
         <td>API Optimization</td></tr>
-<tr><td>22</td>
+<tr><td>221</td>
         <td>catboost.train</td>
         <td>Time,Memory</td>
         <td></td>
         <td>API Optimization</td></tr>
-<tr><td>23</td>
+<tr><td>231</td>
         <td>catboost.cv</td>
         <td>Time,Memory</td>
         <td></td>
         <td>API Optimization</td></tr>
-<tr><td>24</td>
+<tr><td>241</td>
         <td>catboost.Pool</td>
         <td>Time,Memory</td>
         <td></td>
         <td>API Optimization</td></tr>
-<tr><td>25</td>
+<tr><td>251</td>
         <td>sklearn.svm.SVR</td>
         <td>Time,Memory</td>
         <td></td>
         <td>API Optimization</td></tr>
-<tr><td>26</td>
+<tr><td>261</td>
         <td>sklearn.linear_model.ElasticNet</td>
         <td>Time</td>
         <td></td>
         <td>API Optimization</td></tr>
-<tr><td>27</td>
+<tr><td>271</td>
         <td>sklearn.ensemble.RandomForestRegressor</td>
         <td>Time,Memory</td>
         <td></td>
         <td>API Optimization</td></tr>
-<tr><td>28</td>
+<tr><td>281</td>
         <td>xgboost.sklearn.XGBClassifier</td>
         <td>Time,Memory</td>
         <td></td>
         <td>API Optimization</td></tr>
-<tr><td>29</td>
+<tr><td>129</td>
         <td>xgboost.sklearn.XGBRegressor</td>
         <td>Time,Memory</td>
         <td></td>
         <td>API Optimization</td></tr>
-<tr><td>30</td>
+<tr><td>130</td>
         <td>sklearn.svm.NuSVC</td>
         <td>score,Time</td>
         <td></td>
         <td>API Optimization</td></tr>
-<tr><td>31</td>
+<tr><td>131</td>
         <td>sklearn.multioutput.MultiOutputClassifier</td>
         <td>Time</td>
         <td></td>
         <td>API Optimization</td></tr>
-<tr><td>32</td>
+<tr><td>132</td>
         <td>sklearn.linear_model.SGDClassifier</td>
         <td>Time,Memory</td>
         <td></td>
         <td>API Optimization</td></tr>
-<tr><td>33</td>
+<tr><td>133</td>
         <td>sklearn.linear_model.Ridge</td>
         <td>memory</td>
         <td></td>
         <td>API Optimization</td></tr>
-<tr><td>34</td>
+<tr><td>134</td>
         <td>sklearn.naive_bayes.MultinomialNB</td>
         <td>memory</td>
         <td></td>
         <td>API Optimization</td></tr>
-<tr><td>35</td>
+<tr><td>135</td>
         <td>tensorflow.keras.layers.Conv2D</td>
         <td>memory</td>
         <td></td>
         <td>API Optimization</td></tr>
-<tr><td>36</td>
+<tr><td>136</td>
         <td>sklearn.decomposition.PCA</td>
         <td>Time,Memory</td>
         <td></td>
         <td>API Optimization</td></tr>
-<tr><td>37</td>
+<tr><td>137</td>
         <td>sklearn.linear_model.Lasso</td>
         <td>Time,Memory</td>
         <td></td>
         <td>API Optimization</td></tr>
-<tr><td>38</td>
+<tr><td>138</td>
         <td>sklearn.svm.LinearSVC</td>
         <td>Time</td>
         <td></td>
         <td>API Optimization</td></tr>
-<tr><td>39</td>
+<tr><td>139</td>
         <td>category_encoders.target_encoder.TargetEncoder</td>
         <td>Time,Memory</td>
         <td></td>
