@@ -687,6 +687,7 @@ Type A</td>
 <td>
 </td>
 <td>
+Type 2
 </td>
 </tr>
 <tr><td>
@@ -741,6 +742,7 @@ Type A</td>
 <td>
 </td>
 <td>
+Type 2
 </td>
 </tr>
 <tr><td>
@@ -822,6 +824,7 @@ Type A</td>
 <td>
 </td>
 <td>
+Type 2
 </td>
 </tr>
 <tr><td>
@@ -1857,6 +1860,7 @@ Type B</td>
 <td>
 </td>
 <td>
+Type 2
 </td>
 </tr>
 <tr><td>
@@ -2352,6 +2356,7 @@ Type B</td>
 <td>
 </td>
 <td>
+Type 2
 </td>
 </tr>
 <tr><td>
@@ -2370,6 +2375,7 @@ Type B</td>
 <td>
 </td>
 <td>
+Type 2
 </td>
 </tr>
 <tr><td>
@@ -2379,6 +2385,7 @@ Type B</td>
 <td>
 </td>
 <td>
+Type 2
 </td>
 </tr>
 <tr><td>
@@ -2397,6 +2404,7 @@ Type B</td>
 <td>
 </td>
 <td>
+Type 2
 </td>
 </tr>
 <tr><td>
@@ -2406,6 +2414,7 @@ Type B</td>
 <td>
 </td>
 <td>
+Type 2
 </td>
 </tr>
 <tr><td>
@@ -2415,6 +2424,7 @@ Type B</td>
 <td>
 </td>
 <td>
+Type 2
 </td>
 </tr>
 <tr><td>
@@ -2460,6 +2470,7 @@ Type B</td>
 <td>
 </td>
 <td>
+Type 2
 </td>
 </tr>
 <tr><td>
@@ -2469,6 +2480,7 @@ Type B</td>
 <td>
 </td>
 <td>
+Type 2
 </td>
 </tr>
 <tr><td>
@@ -2478,6 +2490,7 @@ Type B</td>
 <td>
 </td>
 <td>
+Type 2
 </td>
 </tr>
 <tr><td>
@@ -2487,6 +2500,7 @@ Type B</td>
 <td>
 </td>
 <td>
+Type 2
 </td>
 </tr>
 <tr><td>
@@ -2514,6 +2528,7 @@ Type A</td>
 <td>
 </td>
 <td>
+Type 2
 </td>
 </tr>
 <tr><td>
@@ -2523,6 +2538,7 @@ Type A</td>
 <td>
 </td>
 <td>
+Type 2
 </td>
 </tr>
 <tr><td>
@@ -2532,6 +2548,7 @@ Type A</td>
 <td>
 </td>
 <td>
+Type 2
 </td>
 </tr>
     </tbody>
