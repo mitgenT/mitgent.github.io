@@ -659,7 +659,7 @@ order: 2
         <td>API Optimization</td></tr>
 <tr><td>48</td>
         <td>pandas.DataFrame.divide</td>
-        <td>memory</td>
+        <td>memory,NaN</td>
         <td></td>
         <td>API Optimization</td></tr>
 <tr><td>
@@ -754,7 +754,7 @@ Type A</td>
 </tr>
 <tr><td>
 59</td>
-<td>tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow.keras.Input,tensorflow.keras.layers.concatenate,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.MaxPool2D,tensorflow.keras.layers.Reshape</td>
+<td>tensorflow.keras.Input,tensorflow.keras.layers.concatenate,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.MaxPool2D,tensorflow.keras.layers.Reshape</td>
 <td>Time</td>
 <td>
 </td>
@@ -853,7 +853,7 @@ Type A</td>
 </tr>
 <tr><td>
 70</td>
-<td>tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow.keras.callbacks.EarlyStopping,tensorflow.keras.callbacks.ReduceLROnPlateau,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.concatenate,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Embedding,tensorflow.keras.layers.Input,tensorflow.keras.layers.Reshape,tensorflow.keras.layers.SpatialDropout1D,tensorflow.keras.models.Model</td>
+<td>tensorflow.keras.callbacks.EarlyStopping,tensorflow.keras.callbacks.ReduceLROnPlateau,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.concatenate,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Embedding,tensorflow.keras.layers.Input,tensorflow.keras.layers.Reshape,tensorflow.keras.layers.SpatialDropout1D,tensorflow.keras.models.Model</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -862,7 +862,7 @@ Type B</td>
 </tr>
 <tr><td>
 71</td>
-<td>tensorflow,tensorflow,tensorflow.keras.layers.Dense,tensorflow.keras.models.Sequential</td>
+<td>tensorflow.keras.layers.Dense,tensorflow.keras.models.Sequential</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -871,7 +871,7 @@ Type B</td>
 </tr>
 <tr><td>
 72</td>
-<td>tensorflow,tensorflow,tensorflow,tensorflow.keras.layers.Dense ,tensorflow.keras.optimizers.Adam ,tensorflow.keras.Sequential </td>
+<td>tensorflow.keras.layers.Dense ,tensorflow.keras.optimizers.Adam ,tensorflow.keras.Sequential </td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -880,7 +880,7 @@ Type B</td>
 </tr>
 <tr><td>
 73</td>
-<td>tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow.keras.applications.VGG16 ,tensorflow.keras.callbacks.EarlyStopping ,tensorflow.keras.callbacks.ModelCheckpoint ,tensorflow.keras.layers.Dense ,tensorflow.keras.layers.Dropout ,tensorflow.keras.layers.Flatten ,tensorflow.keras.layers.LeakyReLU ,tensorflow.keras.models.Model ,tensorflow.keras.optimizers.Adadelta </td>
+<td>tensorflow.keras.applications.VGG16 ,tensorflow.keras.callbacks.EarlyStopping ,tensorflow.keras.callbacks.ModelCheckpoint ,tensorflow.keras.layers.Dense ,tensorflow.keras.layers.Dropout ,tensorflow.keras.layers.Flatten ,tensorflow.keras.layers.LeakyReLU ,tensorflow.keras.models.Model ,tensorflow.keras.optimizers.Adadelta </td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -889,7 +889,7 @@ Type B</td>
 </tr>
 <tr><td>
 74</td>
-<td>tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow.keras.callbacks.EarlyStopping,tensorflow.keras.callbacks.ReduceLROnPlateau,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.MaxPooling2D,tensorflow.keras.models.Sequential,tensorflow.keras.preprocessing.image.ImageDataGenerator</td>
+<td>tensorflow.keras.callbacks.EarlyStopping,tensorflow.keras.callbacks.ReduceLROnPlateau,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.MaxPooling2D,tensorflow.keras.models.Sequential,tensorflow.keras.preprocessing.image.ImageDataGenerator</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -898,7 +898,7 @@ Type B</td>
 </tr>
 <tr><td>
 75</td>
-<td>tensorflow,tensorflow.keras.layers.Conv2D</td>
+<td>tensorflow.keras.layers.Conv2D</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -907,7 +907,7 @@ Type B</td>
 </tr>
 <tr><td>
 76</td>
-<td>tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.MaxPooling2D,tensorflow.keras.models.Sequential,tensorflow.keras.optimizers.RMSprop,tensorflow.keras.preprocessing.image.ImageDataGenerator</td>
+<td>tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.MaxPooling2D,tensorflow.keras.models.Sequential,tensorflow.keras.optimizers.RMSprop,tensorflow.keras.preprocessing.image.ImageDataGenerator</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -916,7 +916,7 @@ Type B</td>
 </tr>
 <tr><td>
 77</td>
-<td>tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow.keras.callbacks.EarlyStopping,tensorflow.keras.layers.Dense,tensorflow.keras.losses.SparseCategoricalCrossentropy,tensorflow.keras.optimizers.Adam,tensorflow.keras.Sequential</td>
+<td>tensorflow.keras.callbacks.EarlyStopping,tensorflow.keras.layers.Dense,tensorflow.keras.losses.SparseCategoricalCrossentropy,tensorflow.keras.optimizers.Adam,tensorflow.keras.Sequential</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -934,8 +934,8 @@ Type B</td>
 </tr>
 <tr><td>
 79</td>
-<td>tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.MaxPooling2D,tensorflow.keras.losses.SparseCategoricalCrossentropy,tensorflow.keras.models.Sequential</td>
-<td>Time,Memory</td>
+<td>tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.MaxPooling2D,tensorflow.keras.losses.SparseCategoricalCrossentropy,tensorflow.keras.models.Sequential</td>
+<td>NaN</td>
 <td>
 </td>
 <td>
@@ -988,7 +988,7 @@ Type B</td>
 </tr>
 <tr><td>
 85</td>
-<td>keras,keras,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,keras.backend.clear_session,keras.utils.to_categorical,tensorflow.keras.callbacks.EarlyStopping,tensorflow.keras.callbacks.LearningRateScheduler,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.LeakyReLU,tensorflow.keras.layers.MaxPooling2D,tensorflow.keras.models.Sequential,tensorflow.keras.optimizers.RMSprop,tensorflow.keras.preprocessing.image.ImageDataGenerator,tensorflow.keras.Sequential</td>
+<td>keras,keras,tensorflow,keras.backend.clear_session,keras.utils.to_categorical,tensorflow.keras.callbacks.EarlyStopping,tensorflow.keras.callbacks.LearningRateScheduler,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.LeakyReLU,tensorflow.keras.layers.MaxPooling2D,tensorflow.keras.models.Sequential,tensorflow.keras.optimizers.RMSprop,tensorflow.keras.preprocessing.image.ImageDataGenerator,tensorflow.keras.Sequential</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -997,7 +997,7 @@ Type B</td>
 </tr>
 <tr><td>
 86</td>
-<td>keras,keras,keras,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,keras.callbacks.ReduceLROnPlateau,keras.optimizers.adam,keras.utils.np_utils.to_categorical,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.MaxPooling2D,tensorflow.keras.models.Sequential,tensorflow.keras.preprocessing.image.ImageDataGenerator</td>
+<td>keras,keras,keras,tensorflow,keras.callbacks.ReduceLROnPlateau,keras.optimizers.adam,keras.utils.np_utils.to_categorical,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.MaxPooling2D,tensorflow.keras.models.Sequential,tensorflow.keras.preprocessing.image.ImageDataGenerator</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -1042,7 +1042,7 @@ Type B</td>
 </tr>
 <tr><td>
 91</td>
-<td>tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.LeakyReLU,tensorflow.keras.layers.MaxPooling2D,tensorflow.keras.models.Sequential,tensorflow.keras.preprocessing.image.ImageDataGenerator</td>
+<td>tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.LeakyReLU,tensorflow.keras.layers.MaxPooling2D,tensorflow.keras.models.Sequential,tensorflow.keras.preprocessing.image.ImageDataGenerator</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -1051,7 +1051,7 @@ Type B</td>
 </tr>
 <tr><td>
 92</td>
-<td>tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow.keras.callbacks.EarlyStopping,tensorflow.keras.callbacks.ReduceLROnPlateau,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.LeakyReLU,tensorflow.keras.layers.MaxPooling2D,tensorflow.keras.models.Sequential,tensorflow.keras.optimizers.RMSprop,tensorflow.keras.preprocessing.image.ImageDataGenerator,tensorflow.keras.utils.to_categorical</td>
+<td>tensorflow.keras.callbacks.EarlyStopping,tensorflow.keras.callbacks.ReduceLROnPlateau,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.LeakyReLU,tensorflow.keras.layers.MaxPooling2D,tensorflow.keras.models.Sequential,tensorflow.keras.optimizers.RMSprop,tensorflow.keras.preprocessing.image.ImageDataGenerator,tensorflow.keras.utils.to_categorical</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -1060,7 +1060,7 @@ Type B</td>
 </tr>
 <tr><td>
 93</td>
-<td>tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow.keras.callbacks.EarlyStopping,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.MaxPool2D,tensorflow.keras.models.Sequential,tensorflow.keras.utils.to_categorical</td>
+<td>tensorflow.keras.callbacks.EarlyStopping,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.MaxPool2D,tensorflow.keras.models.Sequential,tensorflow.keras.utils.to_categorical</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -1069,7 +1069,7 @@ Type B</td>
 </tr>
 <tr><td>
 94</td>
-<td>keras,keras,keras,keras,keras,keras,keras,keras,keras,keras,tensorflow,tensorflow,tensorflow,keras.layers.BatchNormalization,keras.layers.Conv2D,keras.layers.Dense,keras.layers.Dropout,keras.layers.Flatten,keras.layers.LeakyReLU,keras.layers.MaxPooling2D,keras.models.Sequential,keras.optimizers.adam,keras.optimizers.RMSprop,tensorflow.keras.callbacks.EarlyStopping,tensorflow.keras.callbacks.ReduceLROnPlateau,tensorflow.keras.preprocessing.image.ImageDataGenerator</td>
+<td>keras,keras,keras,keras,keras,keras,keras,keras,keras,keras,tensorflow,keras.layers.BatchNormalization,keras.layers.Conv2D,keras.layers.Dense,keras.layers.Dropout,keras.layers.Flatten,keras.layers.LeakyReLU,keras.layers.MaxPooling2D,keras.models.Sequential,keras.optimizers.adam,keras.optimizers.RMSprop,tensorflow.keras.callbacks.EarlyStopping,tensorflow.keras.callbacks.ReduceLROnPlateau,tensorflow.keras.preprocessing.image.ImageDataGenerator</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -1087,7 +1087,7 @@ Type B</td>
 </tr>
 <tr><td>
 96</td>
-<td>tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow.keras.callbacks.EarlyStopping,tensorflow.keras.callbacks.ReduceLROnPlateau,tensorflow.keras.layers.AveragePooling2D,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.ReLU,tensorflow.keras.models.Sequential,tensorflow.keras.utils.to_categorical</td>
+<td>tensorflow.keras.callbacks.EarlyStopping,tensorflow.keras.callbacks.ReduceLROnPlateau,tensorflow.keras.layers.AveragePooling2D,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.ReLU,tensorflow.keras.models.Sequential,tensorflow.keras.utils.to_categorical</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -1141,7 +1141,7 @@ Type B</td>
 </tr>
 <tr><td>
 102</td>
-<td>keras,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,keras.preprocessing.image.ImageDataGenerator,tensorflow.keras.callbacks.EarlyStopping,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.LeakyReLU,tensorflow.keras.layers.MaxPooling2D,tensorflow.keras.models.Sequential,tensorflow.keras.optimizers.SGD</td>
+<td>keras,tensorflow,keras.preprocessing.image.ImageDataGenerator,tensorflow.keras.callbacks.EarlyStopping,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.LeakyReLU,tensorflow.keras.layers.MaxPooling2D,tensorflow.keras.models.Sequential,tensorflow.keras.optimizers.SGD</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -1150,7 +1150,7 @@ Type B</td>
 </tr>
 <tr><td>
 103</td>
-<td>tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow.keras.backend.eval,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.LeakyReLU,tensorflow.keras.layers.MaxPool2D,tensorflow.keras.losses.CategoricalCrossentropy,tensorflow.keras.optimizers.Adam,tensorflow.keras.optimizers.schedules.ExponentialDecay,tensorflow.keras.regularizers.l2,tensorflow.keras.Sequential,tensorflow.one_hot</td>
+<td>tensorflow.keras.backend.eval,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.LeakyReLU,tensorflow.keras.layers.MaxPool2D,tensorflow.keras.losses.CategoricalCrossentropy,tensorflow.keras.optimizers.Adam,tensorflow.keras.optimizers.schedules.ExponentialDecay,tensorflow.keras.regularizers.l2,tensorflow.keras.Sequential,tensorflow.one_hot</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -1159,7 +1159,7 @@ Type B</td>
 </tr>
 <tr><td>
 104</td>
-<td>tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.MaxPooling2D,tensorflow.keras.layers.PReLU,tensorflow.keras.metrics.Precision,tensorflow.keras.metrics.Recall,tensorflow.keras.models.Sequential</td>
+<td>tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.MaxPooling2D,tensorflow.keras.layers.PReLU,tensorflow.keras.metrics.Precision,tensorflow.keras.metrics.Recall,tensorflow.keras.models.Sequential</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -1168,7 +1168,7 @@ Type B</td>
 </tr>
 <tr><td>
 105</td>
-<td>tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow.keras.applications.DenseNet121,tensorflow.keras.callbacks.EarlyStopping,tensorflow.keras.callbacks.ModelCheckpoint,tensorflow.keras.layers.Activation,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.Input,tensorflow.keras.layers.MaxPooling2D,tensorflow.keras.models.Sequential,tensorflow.keras.preprocessing.image.ImageDataGenerator</td>
+<td>tensorflow.keras.applications.DenseNet121,tensorflow.keras.callbacks.EarlyStopping,tensorflow.keras.callbacks.ModelCheckpoint,tensorflow.keras.layers.Activation,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.Input,tensorflow.keras.layers.MaxPooling2D,tensorflow.keras.models.Sequential,tensorflow.keras.preprocessing.image.ImageDataGenerator</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -1177,7 +1177,7 @@ Type B</td>
 </tr>
 <tr><td>
 106</td>
-<td>tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow.cast,tensorflow.keras.callbacks.ReduceLROnPlateau,tensorflow.keras.layers.AlphaDropout,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.MaxPooling2D,tensorflow.keras.models.Sequential,tensorflow.keras.optimizers.RMSprop,tensorflow.keras.preprocessing.image.ImageDataGenerator,tensorflow.keras.utils.to_categorical,tensorflow.random.set_seed</td>
+<td>tensorflow.cast,tensorflow.keras.callbacks.ReduceLROnPlateau,tensorflow.keras.layers.AlphaDropout,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.MaxPooling2D,tensorflow.keras.models.Sequential,tensorflow.keras.optimizers.RMSprop,tensorflow.keras.preprocessing.image.ImageDataGenerator,tensorflow.keras.utils.to_categorical,tensorflow.random.set_seed</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -1186,7 +1186,7 @@ Type B</td>
 </tr>
 <tr><td>
 107</td>
-<td>keras,keras,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,keras.engine.input_layer.Input,keras.utils.to_categorical,tensorflow.keras.Input,tensorflow.keras.layers.Activation,tensorflow.keras.layers.Average,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.concatenate,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.MaxPooling2D,tensorflow.keras.Model</td>
+<td>keras,keras,tensorflow,keras.engine.input_layer.Input,keras.utils.to_categorical,tensorflow.keras.Input,tensorflow.keras.layers.Activation,tensorflow.keras.layers.Average,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.concatenate,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.MaxPooling2D,tensorflow.keras.Model</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -1213,7 +1213,7 @@ Type B</td>
 </tr>
 <tr><td>
 110</td>
-<td>tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow.keras.backend.get_value,tensorflow.keras.backend.set_value,tensorflow.keras.callbacks.LearningRateScheduler,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.MaxPooling2D,tensorflow.keras.models.Sequential,tensorflow.keras.optimizers.Adam,tensorflow.keras.preprocessing.image.ImageDataGenerator</td>
+<td>tensorflow.keras.backend.get_value,tensorflow.keras.backend.set_value,tensorflow.keras.callbacks.LearningRateScheduler,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.MaxPooling2D,tensorflow.keras.models.Sequential,tensorflow.keras.optimizers.Adam,tensorflow.keras.preprocessing.image.ImageDataGenerator</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -1222,7 +1222,7 @@ Type B</td>
 </tr>
 <tr><td>
 111</td>
-<td>tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Flatten,tensorflow.keras.models.Sequential,tensorflow.keras.utils.to_categorical</td>
+<td>tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Flatten,tensorflow.keras.models.Sequential,tensorflow.keras.utils.to_categorical</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -1249,7 +1249,7 @@ Type B</td>
 </tr>
 <tr><td>
 114</td>
-<td>tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.LeakyReLU,tensorflow.keras.layers.MaxPooling2D,tensorflow.keras.models.Sequential,tensorflow.keras.optimizers.RMSprop,tensorflow.keras.utils.to_categorical</td>
+<td>tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.LeakyReLU,tensorflow.keras.layers.MaxPooling2D,tensorflow.keras.models.Sequential,tensorflow.keras.optimizers.RMSprop,tensorflow.keras.utils.to_categorical</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -1276,7 +1276,7 @@ Type B</td>
 </tr>
 <tr><td>
 117</td>
-<td>keras,keras,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,keras.callbacks.ReduceLROnPlateau,keras.preprocessing.image.ImageDataGenerator,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.MaxPooling2D,tensorflow.keras.layers.Reshape,tensorflow.keras.optimizers.RMSprop,tensorflow.keras.Sequential,tensorflow.keras.utils.to_categorical</td>
+<td>keras,keras,tensorflow,keras.callbacks.ReduceLROnPlateau,keras.preprocessing.image.ImageDataGenerator,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.MaxPooling2D,tensorflow.keras.layers.Reshape,tensorflow.keras.optimizers.RMSprop,tensorflow.keras.Sequential,tensorflow.keras.utils.to_categorical</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -1285,7 +1285,7 @@ Type B</td>
 </tr>
 <tr><td>
 118</td>
-<td>tensorflow,tensorflow,tensorflow.keras.layers.Dense,tensorflow.keras.models.Sequential</td>
+<td>tensorflow.keras.layers.Dense,tensorflow.keras.models.Sequential</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -1303,7 +1303,7 @@ Type B</td>
 </tr>
 <tr><td>
 120</td>
-<td>keras,keras,keras,keras,keras,keras,keras,keras,keras,keras,keras,keras,keras,keras,keras,keras,keras,tensorflow,tensorflow,tensorflow,keras.backend.get_value,keras.backend.set_value,keras.callbacks.LambdaCallback,keras.callbacks.LearningRateScheduler,keras.callbacks.ModelCheckpoint,keras.initializers.he_normal,keras.layers.BatchNormalization,keras.layers.Conv2D,keras.layers.Dense,keras.layers.Dropout,keras.layers.GlobalAveragePooling2D,keras.layers.Input,keras.layers.Lambda,keras.layers.MaxPooling2D,keras.layers.SpatialDropout2D,keras.models.Model,keras.preprocessing.image.ImageDataGenerator,tensorflow.config.threading.set_inter_op_parallelism_threads,tensorflow.config.threading.set_intra_op_parallelism_threads,tensorflow.random.set_seed</td>
+<td>keras,keras,keras,keras,keras,keras,keras,keras,keras,keras,keras,keras,keras,keras,keras,keras,keras,tensorflow,keras.backend.get_value,keras.backend.set_value,keras.callbacks.LambdaCallback,keras.callbacks.LearningRateScheduler,keras.callbacks.ModelCheckpoint,keras.initializers.he_normal,keras.layers.BatchNormalization,keras.layers.Conv2D,keras.layers.Dense,keras.layers.Dropout,keras.layers.GlobalAveragePooling2D,keras.layers.Input,keras.layers.Lambda,keras.layers.MaxPooling2D,keras.layers.SpatialDropout2D,keras.models.Model,keras.preprocessing.image.ImageDataGenerator,tensorflow.config.threading.set_inter_op_parallelism_threads,tensorflow.config.threading.set_intra_op_parallelism_threads,tensorflow.random.set_seed</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -1321,7 +1321,7 @@ Type B</td>
 </tr>
 <tr><td>
 122</td>
-<td>tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow.keras.callbacks.EarlyStopping,tensorflow.keras.callbacks.ReduceLROnPlateau,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.LeakyReLU,tensorflow.keras.layers.MaxPool2D,tensorflow.keras.models.Sequential,tensorflow.keras.optimizers.Nadam,tensorflow.keras.preprocessing.image.ImageDataGenerator,tensorflow.keras.utils.to_categorical,tensorflow.losses.Huber</td>
+<td>tensorflow.keras.callbacks.EarlyStopping,tensorflow.keras.callbacks.ReduceLROnPlateau,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.LeakyReLU,tensorflow.keras.layers.MaxPool2D,tensorflow.keras.models.Sequential,tensorflow.keras.optimizers.Nadam,tensorflow.keras.preprocessing.image.ImageDataGenerator,tensorflow.keras.utils.to_categorical,tensorflow.losses.Huber</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -1339,7 +1339,7 @@ Type B</td>
 </tr>
 <tr><td>
 124</td>
-<td>keras,keras,keras,keras,keras,keras,keras,keras,keras,keras,tensorflow,tensorflow,tensorflow,keras.layers.BatchNormalization,keras.layers.Conv2D,keras.layers.Dense,keras.layers.Dropout,keras.layers.Flatten,keras.layers.LeakyReLU,keras.layers.MaxPooling2D,keras.models.Sequential,keras.optimizers.adam,keras.optimizers.RMSprop,tensorflow.keras.callbacks.EarlyStopping,tensorflow.keras.callbacks.ReduceLROnPlateau,tensorflow.keras.preprocessing.image.ImageDataGenerator</td>
+<td>keras,keras,keras,keras,keras,keras,keras,keras,keras,keras,tensorflow,keras.layers.BatchNormalization,keras.layers.Conv2D,keras.layers.Dense,keras.layers.Dropout,keras.layers.Flatten,keras.layers.LeakyReLU,keras.layers.MaxPooling2D,keras.models.Sequential,keras.optimizers.adam,keras.optimizers.RMSprop,tensorflow.keras.callbacks.EarlyStopping,tensorflow.keras.callbacks.ReduceLROnPlateau,tensorflow.keras.preprocessing.image.ImageDataGenerator</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -1357,7 +1357,7 @@ Type B</td>
 </tr>
 <tr><td>
 126</td>
-<td>tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow.keras.callbacks.EarlyStopping,tensorflow.keras.callbacks.ReduceLROnPlateau,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.LeakyReLU,tensorflow.keras.layers.MaxPooling2D,tensorflow.keras.models.Sequential,tensorflow.keras.optimizers.RMSprop,tensorflow.keras.preprocessing.image.ImageDataGenerator,tensorflow.keras.utils.plot_model,tensorflow.keras.utils.to_categorical,tensorflow.test.gpu_device_name</td>
+<td>tensorflow.keras.callbacks.EarlyStopping,tensorflow.keras.callbacks.ReduceLROnPlateau,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.LeakyReLU,tensorflow.keras.layers.MaxPooling2D,tensorflow.keras.models.Sequential,tensorflow.keras.optimizers.RMSprop,tensorflow.keras.preprocessing.image.ImageDataGenerator,tensorflow.keras.utils.plot_model,tensorflow.keras.utils.to_categorical,tensorflow.test.gpu_device_name</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -1411,7 +1411,7 @@ Type B</td>
 </tr>
 <tr><td>
 132</td>
-<td>tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow.keras.callbacks.EarlyStopping,tensorflow.keras.callbacks.ReduceLROnPlateau,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.LeakyReLU,tensorflow.keras.layers.MaxPooling2D,tensorflow.keras.models.Sequential,tensorflow.keras.optimizers.RMSprop,tensorflow.keras.preprocessing.image.ImageDataGenerator,tensorflow.keras.utils.to_categorical,tensorflow.test.gpu_device_name</td>
+<td>tensorflow.keras.callbacks.EarlyStopping,tensorflow.keras.callbacks.ReduceLROnPlateau,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.LeakyReLU,tensorflow.keras.layers.MaxPooling2D,tensorflow.keras.models.Sequential,tensorflow.keras.optimizers.RMSprop,tensorflow.keras.preprocessing.image.ImageDataGenerator,tensorflow.keras.utils.to_categorical,tensorflow.test.gpu_device_name</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -1438,7 +1438,7 @@ Type B</td>
 </tr>
 <tr><td>
 135</td>
-<td>tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow.keras.callbacks.LearningRateScheduler,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.MaxPool2D,tensorflow.keras.models.Sequential,tensorflow.keras.optimizers.Adam,tensorflow.keras.preprocessing.image.ImageDataGenerator,tensorflow.keras.utils.to_categorical</td>
+<td>tensorflow.keras.callbacks.LearningRateScheduler,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.MaxPool2D,tensorflow.keras.models.Sequential,tensorflow.keras.optimizers.Adam,tensorflow.keras.preprocessing.image.ImageDataGenerator,tensorflow.keras.utils.to_categorical</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -1447,7 +1447,7 @@ Type B</td>
 </tr>
 <tr><td>
 136</td>
-<td>tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow.keras.backend.sigmoid,tensorflow.keras.layers.Activation,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.MaxPool2D,tensorflow.keras.models.Sequential,tensorflow.keras.optimizers.Nadam,tensorflow.keras.utils.get_custom_objects,tensorflow.test.gpu_device_name</td>
+<td>tensorflow.keras.backend.sigmoid,tensorflow.keras.layers.Activation,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.MaxPool2D,tensorflow.keras.models.Sequential,tensorflow.keras.optimizers.Nadam,tensorflow.keras.utils.get_custom_objects,tensorflow.test.gpu_device_name</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -1456,7 +1456,7 @@ Type B</td>
 </tr>
 <tr><td>
 137</td>
-<td>keras,keras,keras,keras,keras,keras,keras,keras,keras,keras,tensorflow,tensorflow,keras.callbacks.ReduceLROnPlateau,keras.layers.BatchNormalization,keras.layers.Conv2D,keras.layers.Dense,keras.layers.Dropout,keras.layers.Flatten,keras.models.Sequential,keras.optimizers.adam,keras.preprocessing.image.ImageDataGenerator,keras.utils.np_utils.to_categorical,tensorflow.compat.v1.ConfigProto,tensorflow.compat.v1.InteractiveSession</td>
+<td>keras,keras,keras,keras,keras,keras,keras,keras,keras,keras,tensorflow,keras.callbacks.ReduceLROnPlateau,keras.layers.BatchNormalization,keras.layers.Conv2D,keras.layers.Dense,keras.layers.Dropout,keras.layers.Flatten,keras.models.Sequential,keras.optimizers.adam,keras.preprocessing.image.ImageDataGenerator,keras.utils.np_utils.to_categorical,tensorflow.compat.v1.ConfigProto,tensorflow.compat.v1.InteractiveSession</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -1465,7 +1465,7 @@ Type B</td>
 </tr>
 <tr><td>
 138</td>
-<td>keras,keras,keras,keras,keras,keras,keras,keras,keras,keras,tensorflow,tensorflow,tensorflow,keras.callbacks.LearningRateScheduler,keras.layers.Conv2D,keras.layers.Dense,keras.layers.Dropout,keras.layers.Flatten,keras.layers.LeakyReLU,keras.layers.MaxPooling2D,keras.layers.normalization.BatchNormalization,keras.models.Sequential,keras.optimizers.RMSprop,tensorflow.ConfigProto,tensorflow.keras.backend.set_session,tensorflow.Session</td>
+<td>keras,keras,keras,keras,keras,keras,keras,keras,keras,keras,tensorflow,keras.callbacks.LearningRateScheduler,keras.layers.Conv2D,keras.layers.Dense,keras.layers.Dropout,keras.layers.Flatten,keras.layers.LeakyReLU,keras.layers.MaxPooling2D,keras.layers.normalization.BatchNormalization,keras.models.Sequential,keras.optimizers.RMSprop,tensorflow.ConfigProto,tensorflow.keras.backend.set_session,tensorflow.Session</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -1492,7 +1492,7 @@ Type B</td>
 </tr>
 <tr><td>
 141</td>
-<td>tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.MaxPooling2D,tensorflow.keras.models.Sequential,tensorflow.keras.optimizers.Adam</td>
+<td>tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.MaxPooling2D,tensorflow.keras.models.Sequential,tensorflow.keras.optimizers.Adam</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -1501,7 +1501,7 @@ Type B</td>
 </tr>
 <tr><td>
 142</td>
-<td>tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow.keras.callbacks.EarlyStopping,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.MaxPooling2D,tensorflow.keras.models.Sequential</td>
+<td>tensorflow.keras.callbacks.EarlyStopping,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.MaxPooling2D,tensorflow.keras.models.Sequential</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -1510,7 +1510,7 @@ Type B</td>
 </tr>
 <tr><td>
 143</td>
-<td>tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow.keras.backend.clear_session,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.MaxPooling2D,tensorflow.keras.models.Sequential,tensorflow.keras.optimizers.Adam,tensorflow.keras.optimizers.schedules.InverseTimeDecay,tensorflow.keras.preprocessing.image.ImageDataGenerator,tensorflow.keras.regularizers.l2</td>
+<td>tensorflow.keras.backend.clear_session,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.MaxPooling2D,tensorflow.keras.models.Sequential,tensorflow.keras.optimizers.Adam,tensorflow.keras.optimizers.schedules.InverseTimeDecay,tensorflow.keras.preprocessing.image.ImageDataGenerator,tensorflow.keras.regularizers.l2</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -1519,7 +1519,7 @@ Type B</td>
 </tr>
 <tr><td>
 144</td>
-<td>keras,keras,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,keras.preprocessing.image.ImageDataGenerator,keras.regularizers.l2,tensorflow.keras.callbacks.EarlyStopping,tensorflow.keras.callbacks.LearningRateScheduler,tensorflow.keras.callbacks.ReduceLROnPlateau,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.MaxPooling2D,tensorflow.keras.optimizers.RMSprop,tensorflow.keras.Sequential</td>
+<td>keras,keras,tensorflow,keras.preprocessing.image.ImageDataGenerator,keras.regularizers.l2,tensorflow.keras.callbacks.EarlyStopping,tensorflow.keras.callbacks.LearningRateScheduler,tensorflow.keras.callbacks.ReduceLROnPlateau,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.MaxPooling2D,tensorflow.keras.optimizers.RMSprop,tensorflow.keras.Sequential</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -1528,7 +1528,7 @@ Type B</td>
 </tr>
 <tr><td>
 145</td>
-<td>tensorflow,tensorflow,tensorflow,tensorflow,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Embedding,tensorflow.keras.layers.LSTM,tensorflow.keras.Sequential</td>
+<td>tensorflow.keras.layers.Dense,tensorflow.keras.layers.Embedding,tensorflow.keras.layers.LSTM,tensorflow.keras.Sequential</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -1537,7 +1537,7 @@ Type B</td>
 </tr>
 <tr><td>
 146</td>
-<td>tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow.keras.callbacks.EarlyStopping,tensorflow.keras.callbacks.LearningRateScheduler,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.GlobalMaxPooling2D,tensorflow.keras.layers.MaxPooling2D,tensorflow.keras.models.Sequential,tensorflow.keras.optimizers.Adam,tensorflow.keras.preprocessing.image.ImageDataGenerator,tensorflow.keras.preprocessing.image.load_img</td>
+<td>tensorflow.keras.callbacks.EarlyStopping,tensorflow.keras.callbacks.LearningRateScheduler,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.GlobalMaxPooling2D,tensorflow.keras.layers.MaxPooling2D,tensorflow.keras.models.Sequential,tensorflow.keras.optimizers.Adam,tensorflow.keras.preprocessing.image.ImageDataGenerator,tensorflow.keras.preprocessing.image.load_img</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -1582,7 +1582,7 @@ Type B</td>
 </tr>
 <tr><td>
 151</td>
-<td>keras,keras,keras,keras,keras,keras,keras,keras,keras,keras,tensorflow,tensorflow,keras.applications.vgg16.VGG16,keras.layers.Activation,keras.layers.BatchNormalization,keras.layers.Conv2D,keras.layers.Dense,keras.layers.Dropout,keras.layers.Flatten,keras.layers.MaxPool2D,keras.models.Sequential,keras.preprocessing.image.ImageDataGenerator,tensorflow.device,tensorflow.python.client.device_lib.list_local_devices</td>
+<td>keras,keras,keras,keras,keras,keras,keras,keras,keras,keras,tensorflow,keras.applications.vgg16.VGG16,keras.layers.Activation,keras.layers.BatchNormalization,keras.layers.Conv2D,keras.layers.Dense,keras.layers.Dropout,keras.layers.Flatten,keras.layers.MaxPool2D,keras.models.Sequential,keras.preprocessing.image.ImageDataGenerator,tensorflow.device,tensorflow.python.client.device_lib.list_local_devices</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -1609,7 +1609,7 @@ Type B</td>
 </tr>
 <tr><td>
 154</td>
-<td>tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow.keras.callbacks.EarlyStopping,tensorflow.keras.callbacks.LearningRateScheduler,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.LeakyReLU,tensorflow.keras.layers.MaxPooling2D,tensorflow.keras.models.Sequential,tensorflow.keras.optimizers.RMSprop,tensorflow.keras.preprocessing.image.ImageDataGenerator</td>
+<td>tensorflow.keras.callbacks.EarlyStopping,tensorflow.keras.callbacks.LearningRateScheduler,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.LeakyReLU,tensorflow.keras.layers.MaxPooling2D,tensorflow.keras.models.Sequential,tensorflow.keras.optimizers.RMSprop,tensorflow.keras.preprocessing.image.ImageDataGenerator</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -1645,7 +1645,7 @@ Type B</td>
 </tr>
 <tr><td>
 158</td>
-<td>tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow.keras.applications.VGG16,tensorflow.keras.callbacks.EarlyStopping,tensorflow.keras.callbacks.ModelCheckpoint,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.LeakyReLU,tensorflow.keras.models.Model,tensorflow.keras.optimizers.Adadelta,tensorflow.keras.preprocessing.image.ImageDataGenerator</td>
+<td>tensorflow.keras.applications.VGG16,tensorflow.keras.callbacks.EarlyStopping,tensorflow.keras.callbacks.ModelCheckpoint,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.LeakyReLU,tensorflow.keras.models.Model,tensorflow.keras.optimizers.Adadelta,tensorflow.keras.preprocessing.image.ImageDataGenerator</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -1663,7 +1663,7 @@ Type B</td>
 </tr>
 <tr><td>
 160</td>
-<td>tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow.keras.Input,tensorflow.keras.layers.concatenate,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.MaxPool2D,tensorflow.keras.layers.Reshape,tensorflow.keras.Model</td>
+<td>tensorflow.keras.Input,tensorflow.keras.layers.concatenate,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.MaxPool2D,tensorflow.keras.layers.Reshape,tensorflow.keras.Model</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -1672,7 +1672,7 @@ Type B</td>
 </tr>
 <tr><td>
 161</td>
-<td>tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow.keras.callbacks.EarlyStopping,tensorflow.keras.callbacks.ReduceLROnPlateau,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.LeakyReLU,tensorflow.keras.layers.MaxPooling2D,tensorflow.keras.models.Sequential,tensorflow.keras.optimizers.RMSprop</td>
+<td>tensorflow.keras.callbacks.EarlyStopping,tensorflow.keras.callbacks.ReduceLROnPlateau,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.LeakyReLU,tensorflow.keras.layers.MaxPooling2D,tensorflow.keras.models.Sequential,tensorflow.keras.optimizers.RMSprop</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -1681,7 +1681,7 @@ Type B</td>
 </tr>
 <tr><td>
 162</td>
-<td>tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow.keras.callbacks.EarlyStopping,tensorflow.keras.callbacks.ReduceLROnPlateau,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.MaxPool2D,tensorflow.keras.models.Sequential,tensorflow.keras.optimizers.Adamax,tensorflow.keras.preprocessing.image.ImageDataGenerator,tensorflow.keras.utils.to_categorical</td>
+<td>tensorflow.keras.callbacks.EarlyStopping,tensorflow.keras.callbacks.ReduceLROnPlateau,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.MaxPool2D,tensorflow.keras.models.Sequential,tensorflow.keras.optimizers.Adamax,tensorflow.keras.preprocessing.image.ImageDataGenerator,tensorflow.keras.utils.to_categorical</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -1708,7 +1708,7 @@ Type B</td>
 </tr>
 <tr><td>
 165</td>
-<td>tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow.keras.callbacks.EarlyStopping,tensorflow.keras.callbacks.ReduceLROnPlateau,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.MaxPool2D,tensorflow.keras.models.Sequential,tensorflow.keras.preprocessing.image.ImageDataGenerator,tensorflow.keras.utils.to_categorical</td>
+<td>tensorflow.keras.callbacks.EarlyStopping,tensorflow.keras.callbacks.ReduceLROnPlateau,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.MaxPool2D,tensorflow.keras.models.Sequential,tensorflow.keras.preprocessing.image.ImageDataGenerator,tensorflow.keras.utils.to_categorical</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -1726,7 +1726,7 @@ Type B</td>
 </tr>
 <tr><td>
 167</td>
-<td>tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow.initializers.constant,tensorflow.initializers.TruncatedNormal,tensorflow.keras.callbacks.EarlyStopping,tensorflow.keras.callbacks.ReduceLROnPlateau,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Flatten,tensorflow.keras.optimizers.RMSprop,tensorflow.keras.preprocessing.image.ImageDataGenerator,tensorflow.keras.Sequential,tensorflow.keras.utils.to_categorical</td>
+<td>tensorflow.initializers.constant,tensorflow.initializers.TruncatedNormal,tensorflow.keras.callbacks.EarlyStopping,tensorflow.keras.callbacks.ReduceLROnPlateau,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Flatten,tensorflow.keras.optimizers.RMSprop,tensorflow.keras.preprocessing.image.ImageDataGenerator,tensorflow.keras.Sequential,tensorflow.keras.utils.to_categorical</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -1735,7 +1735,7 @@ Type B</td>
 </tr>
 <tr><td>
 168</td>
-<td>tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow.keras.callbacks.EarlyStopping,tensorflow.keras.callbacks.ReduceLROnPlateau,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.LeakyReLU,tensorflow.keras.layers.MaxPooling2D,tensorflow.keras.models.Sequential,tensorflow.keras.optimizers.RMSprop,tensorflow.keras.preprocessing.image.ImageDataGenerator,tensorflow.keras.utils.to_categorical,tensorflow.test.gpu_device_name</td>
+<td>tensorflow.keras.callbacks.EarlyStopping,tensorflow.keras.callbacks.ReduceLROnPlateau,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.LeakyReLU,tensorflow.keras.layers.MaxPooling2D,tensorflow.keras.models.Sequential,tensorflow.keras.optimizers.RMSprop,tensorflow.keras.preprocessing.image.ImageDataGenerator,tensorflow.keras.utils.to_categorical,tensorflow.test.gpu_device_name</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -1744,7 +1744,7 @@ Type B</td>
 </tr>
 <tr><td>
 169</td>
-<td>tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow.keras.callbacks.LearningRateScheduler,tensorflow.keras.layers.Activation,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.LeakyReLU,tensorflow.keras.layers.MaxPooling2D,tensorflow.keras.models.Sequential,tensorflow.keras.optimizers.Adam,tensorflow.keras.preprocessing.image.ImageDataGenerator,tensorflow.keras.utils.to_categorical</td>
+<td>tensorflow.keras.callbacks.LearningRateScheduler,tensorflow.keras.layers.Activation,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.LeakyReLU,tensorflow.keras.layers.MaxPooling2D,tensorflow.keras.models.Sequential,tensorflow.keras.optimizers.Adam,tensorflow.keras.preprocessing.image.ImageDataGenerator,tensorflow.keras.utils.to_categorical</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -1753,7 +1753,7 @@ Type B</td>
 </tr>
 <tr><td>
 170</td>
-<td>tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow.data.Dataset.from_tensor_slices,tensorflow.keras.backend.clear_session,tensorflow.keras.callbacks.ReduceLROnPlateau,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.MaxPooling2D,tensorflow.keras.optimizers.Adam,tensorflow.keras.Sequential</td>
+<td>tensorflow.data.Dataset.from_tensor_slices,tensorflow.keras.backend.clear_session,tensorflow.keras.callbacks.ReduceLROnPlateau,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.MaxPooling2D,tensorflow.keras.optimizers.Adam,tensorflow.keras.Sequential</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -1771,7 +1771,7 @@ Type B</td>
 </tr>
 <tr><td>
 172</td>
-<td>tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow.keras.callbacks.EarlyStopping,tensorflow.keras.callbacks.ReduceLROnPlateau,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.LeakyReLU,tensorflow.keras.layers.MaxPooling2D,tensorflow.keras.models.Sequential,tensorflow.keras.optimizers.RMSprop,tensorflow.keras.preprocessing.image.ImageDataGenerator,tensorflow.keras.utils.plot_model,tensorflow.keras.utils.to_categorical,tensorflow.test.gpu_device_name</td>
+<td>tensorflow.keras.callbacks.EarlyStopping,tensorflow.keras.callbacks.ReduceLROnPlateau,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.LeakyReLU,tensorflow.keras.layers.MaxPooling2D,tensorflow.keras.models.Sequential,tensorflow.keras.optimizers.RMSprop,tensorflow.keras.preprocessing.image.ImageDataGenerator,tensorflow.keras.utils.plot_model,tensorflow.keras.utils.to_categorical,tensorflow.test.gpu_device_name</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -1780,7 +1780,7 @@ Type B</td>
 </tr>
 <tr><td>
 173</td>
-<td>tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow.keras.callbacks.EarlyStopping,tensorflow.keras.callbacks.ReduceLROnPlateau,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.MaxPooling2D,tensorflow.keras.models.Sequential,tensorflow.keras.optimizers.RMSprop,tensorflow.keras.preprocessing.image.ImageDataGenerator,tensorflow.keras.utils.to_categorical</td>
+<td>tensorflow.keras.callbacks.EarlyStopping,tensorflow.keras.callbacks.ReduceLROnPlateau,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.MaxPooling2D,tensorflow.keras.models.Sequential,tensorflow.keras.optimizers.RMSprop,tensorflow.keras.preprocessing.image.ImageDataGenerator,tensorflow.keras.utils.to_categorical</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -1807,7 +1807,7 @@ Type B</td>
 </tr>
 <tr><td>
 176</td>
-<td>tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.LeakyReLU,tensorflow.keras.layers.MaxPooling2D,tensorflow.keras.models.Sequential,tensorflow.keras.utils.to_categorical</td>
+<td>tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.LeakyReLU,tensorflow.keras.layers.MaxPooling2D,tensorflow.keras.models.Sequential,tensorflow.keras.utils.to_categorical</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -1834,7 +1834,7 @@ Type B</td>
 </tr>
 <tr><td>
 179</td>
-<td>keras,keras,keras,keras,keras,keras,keras,keras,keras,tensorflow,tensorflow,tensorflow,keras.layers.BatchNormalization,keras.layers.Conv2D,keras.layers.Dense,keras.layers.Dropout,keras.layers.Flatten,keras.layers.MaxPooling2D,keras.models.Sequential,keras.optimizers.RMSprop,keras.utils.np_utils.to_categorical,tensorflow.keras.callbacks.EarlyStopping,tensorflow.keras.callbacks.ReduceLROnPlateau,tensorflow.keras.preprocessing.image.ImageDataGenerator</td>
+<td>keras,keras,keras,keras,keras,keras,keras,keras,keras,tensorflow,keras.layers.BatchNormalization,keras.layers.Conv2D,keras.layers.Dense,keras.layers.Dropout,keras.layers.Flatten,keras.layers.MaxPooling2D,keras.models.Sequential,keras.optimizers.RMSprop,keras.utils.np_utils.to_categorical,tensorflow.keras.callbacks.EarlyStopping,tensorflow.keras.callbacks.ReduceLROnPlateau,tensorflow.keras.preprocessing.image.ImageDataGenerator</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -1861,7 +1861,7 @@ Type B</td>
 </tr>
 <tr><td>
 182</td>
-<td>tensorflow,tensorflow,tensorflow,tensorflow.keras.layers.Dense,tensorflow.keras.losses.MeanSquaredLogarithmicError,tensorflow.keras.Sequential</td>
+<td>tensorflow.keras.layers.Dense,tensorflow.keras.losses.MeanSquaredLogarithmicError,tensorflow.keras.Sequential</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -1879,7 +1879,7 @@ Type B</td>
 </tr>
 <tr><td>
 184</td>
-<td>keras,keras,keras,keras,keras,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,keras.callbacks.EarlyStopping,keras.callbacks.ModelCheckpoint,keras.callbacks.ReduceLROnPlateau,keras.models.load_model,keras.preprocessing.image.ImageDataGenerator,tensorflow.keras.layers.BatchNormalization ,tensorflow.keras.layers.Conv2D ,tensorflow.keras.layers.Dense ,tensorflow.keras.layers.Dropout ,tensorflow.keras.layers.Flatten ,tensorflow.keras.layers.GlobalMaxPool2D ,tensorflow.keras.layers.MaxPooling2D ,tensorflow.keras.models.Sequential</td>
+<td>keras,keras,keras,keras,keras,tensorflow,keras.callbacks.EarlyStopping,keras.callbacks.ModelCheckpoint,keras.callbacks.ReduceLROnPlateau,keras.models.load_model,keras.preprocessing.image.ImageDataGenerator,tensorflow.keras.layers.BatchNormalization ,tensorflow.keras.layers.Conv2D ,tensorflow.keras.layers.Dense ,tensorflow.keras.layers.Dropout ,tensorflow.keras.layers.Flatten ,tensorflow.keras.layers.GlobalMaxPool2D ,tensorflow.keras.layers.MaxPooling2D ,tensorflow.keras.models.Sequential</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -1888,7 +1888,7 @@ Type B</td>
 </tr>
 <tr><td>
 185</td>
-<td>keras,keras,keras,keras,keras,keras,keras,tensorflow,tensorflow,keras.callbacks.EarlyStopping,keras.layers.Bidirectional,keras.layers.Dense,keras.layers.Dropout,keras.layers.Embedding,keras.layers.LSTM,keras.models.Sequential,tensorflow.python.keras.preprocessing.sequence.pad_sequences ,tensorflow.python.keras.preprocessing.text.Tokenizer</td>
+<td>keras,keras,keras,keras,keras,keras,keras,tensorflow,keras.callbacks.EarlyStopping,keras.layers.Bidirectional,keras.layers.Dense,keras.layers.Dropout,keras.layers.Embedding,keras.layers.LSTM,keras.models.Sequential,tensorflow.python.keras.preprocessing.sequence.pad_sequences ,tensorflow.python.keras.preprocessing.text.Tokenizer</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -1906,7 +1906,7 @@ Type B</td>
 </tr>
 <tr><td>
 187</td>
-<td>scikit-learn,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,sklearn.model_selection.KFold ,tensorflow.keras.layers.Bidirectional ,tensorflow.keras.layers.Dense ,tensorflow.keras.layers.Embedding ,tensorflow.keras.layers.Input ,tensorflow.keras.models.tensorflow.keras.modelsodel ,tensorflow.keras.preprocessing.sequence.pad_sequences ,tensorflow.keras.preprocessing.text.Tokenizer</td>
+<td>scikit-learn,tensorflow,sklearn.model_selection.KFold ,tensorflow.keras.layers.Bidirectional ,tensorflow.keras.layers.Dense ,tensorflow.keras.layers.Embedding ,tensorflow.keras.layers.Input ,tensorflow.keras.models.tensorflow.keras.modelsodel ,tensorflow.keras.preprocessing.sequence.pad_sequences ,tensorflow.keras.preprocessing.text.Tokenizer</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -1915,7 +1915,7 @@ Type B</td>
 </tr>
 <tr><td>
 188</td>
-<td>tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow.keras.callbacks.ReduceLROnPlateau,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Input,tensorflow.keras.Sequential,tensorflow.random.set_seed</td>
+<td>tensorflow.keras.callbacks.ReduceLROnPlateau,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Input,tensorflow.keras.Sequential,tensorflow.random.set_seed</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -1924,7 +1924,7 @@ Type B</td>
 </tr>
 <tr><td>
 189</td>
-<td>tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Input,tensorflow.keras.metrics.BinaryCrossentropy,tensorflow.keras.models.Sequential,tensorflow.keras.optimizers.Adam</td>
+<td>tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Input,tensorflow.keras.metrics.BinaryCrossentropy,tensorflow.keras.models.Sequential,tensorflow.keras.optimizers.Adam</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -1933,7 +1933,7 @@ Type B</td>
 </tr>
 <tr><td>
 190</td>
-<td>tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow.keras.layers.AlphaDropout,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Input,tensorflow.keras.losses.BinaryCrossentropy,tensorflow.keras.Sequential</td>
+<td>tensorflow.keras.layers.AlphaDropout,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Input,tensorflow.keras.losses.BinaryCrossentropy,tensorflow.keras.Sequential</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -1942,7 +1942,7 @@ Type B</td>
 </tr>
 <tr><td>
 191</td>
-<td>tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow.keras.callbacks.EarlyStopping,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Input,tensorflow.keras.Sequential,tensorflow.optimizers.Adam,tensorflow.random.set_seed</td>
+<td>tensorflow.keras.callbacks.EarlyStopping,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Input,tensorflow.keras.Sequential,tensorflow.optimizers.Adam,tensorflow.random.set_seed</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -1951,7 +1951,7 @@ Type B</td>
 </tr>
 <tr><td>
 192</td>
-<td>tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow.keras.backend.clear_session,tensorflow.keras.callbacks.EarlyStopping,tensorflow.keras.callbacks.ModelCheckpoint,tensorflow.keras.callbacks.ReduceLROnPlateau,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Conv1D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.Input,tensorflow.keras.layers.MaxPool1D,tensorflow.keras.metrics.AUC,tensorflow.keras.models.load_model,tensorflow.keras.optimizers.Adam,tensorflow.keras.Sequential,tensorflow.random.set_seed</td>
+<td>tensorflow.keras.backend.clear_session,tensorflow.keras.callbacks.EarlyStopping,tensorflow.keras.callbacks.ModelCheckpoint,tensorflow.keras.callbacks.ReduceLROnPlateau,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Conv1D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.Input,tensorflow.keras.layers.MaxPool1D,tensorflow.keras.metrics.AUC,tensorflow.keras.models.load_model,tensorflow.keras.optimizers.Adam,tensorflow.keras.Sequential,tensorflow.random.set_seed</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -1969,7 +1969,7 @@ Type B</td>
 </tr>
 <tr><td>
 194</td>
-<td>tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Input,tensorflow.keras.models.Sequential</td>
+<td>tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Input,tensorflow.keras.models.Sequential</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -1978,7 +1978,7 @@ Type B</td>
 </tr>
 <tr><td>
 195</td>
-<td>tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow.keras.backend.clear_session,tensorflow.keras.layers.Activation,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Input,tensorflow.keras.losses.BinaryCrossentropy,tensorflow.keras.models.Model,tensorflow.keras.optimizers.Adam,tensorflow.random.set_seed</td>
+<td>tensorflow.keras.backend.clear_session,tensorflow.keras.layers.Activation,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Input,tensorflow.keras.losses.BinaryCrossentropy,tensorflow.keras.models.Model,tensorflow.keras.optimizers.Adam,tensorflow.random.set_seed</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -1987,7 +1987,7 @@ Type B</td>
 </tr>
 <tr><td>
 196</td>
-<td>tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow.convert_to_tensor,tensorflow.keras.callbacks.EarlyStopping,tensorflow.keras.callbacks.ReduceLROnPlateau,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Input,tensorflow.keras.models.Sequential</td>
+<td>tensorflow.convert_to_tensor,tensorflow.keras.callbacks.EarlyStopping,tensorflow.keras.callbacks.ReduceLROnPlateau,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Input,tensorflow.keras.models.Sequential</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -1996,7 +1996,7 @@ Type B</td>
 </tr>
 <tr><td>
 197</td>
-<td>tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow.cast,tensorflow.config.list_physical_devices,tensorflow.data.Dataset.from_tensor_slices,tensorflow.data.Dataset.zip,tensorflow.keras.callbacks.EarlyStopping,tensorflow.keras.Input,tensorflow.keras.layers.concatenate,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.experimental.preprocessing.CategoryEncoding,tensorflow.keras.layers.experimental.preprocessing.Normalization,tensorflow.keras.layers.experimental.preprocessing.StringLookup,tensorflow.keras.losses.BinaryCrossentropy,tensorflow.keras.Model,tensorflow.keras.optimizers.Adam,tensorflow.keras.optimizers.RMSprop,tensorflow.stack</td>
+<td>tensorflow.cast,tensorflow.config.list_physical_devices,tensorflow.data.Dataset.from_tensor_slices,tensorflow.data.Dataset.zip,tensorflow.keras.callbacks.EarlyStopping,tensorflow.keras.Input,tensorflow.keras.layers.concatenate,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.experimental.preprocessing.CategoryEncoding,tensorflow.keras.layers.experimental.preprocessing.Normalization,tensorflow.keras.layers.experimental.preprocessing.StringLookup,tensorflow.keras.losses.BinaryCrossentropy,tensorflow.keras.Model,tensorflow.keras.optimizers.Adam,tensorflow.keras.optimizers.RMSprop,tensorflow.stack</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -2005,7 +2005,7 @@ Type B</td>
 </tr>
 <tr><td>
 198</td>
-<td>keras,keras,keras,keras,tensorflow,tensorflow,tensorflow,keras.callbacks.EarlyStopping,keras.callbacks.ModelCheckpoint,keras.callbacks.ReduceLROnPlateau,keras.wrappers.scikit_learn.KerasRegressor,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.Sequential</td>
+<td>keras,keras,keras,keras,tensorflow,keras.callbacks.EarlyStopping,keras.callbacks.ModelCheckpoint,keras.callbacks.ReduceLROnPlateau,keras.wrappers.scikit_learn.KerasRegressor,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.Sequential</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -2014,7 +2014,7 @@ Type B</td>
 </tr>
 <tr><td>
 199</td>
-<td>tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow.data.Dataset.from_tensor_slices,tensorflow.device,tensorflow.keras.callbacks.EarlyStopping,tensorflow.keras.callbacks.ModelCheckpoint,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Input,tensorflow.keras.layers.LSTM,tensorflow.keras.metrics.RootMeanSquaredError,tensorflow.keras.Model,tensorflow.keras.optimizers.Adam</td>
+<td>tensorflow.data.Dataset.from_tensor_slices,tensorflow.device,tensorflow.keras.callbacks.EarlyStopping,tensorflow.keras.callbacks.ModelCheckpoint,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Input,tensorflow.keras.layers.LSTM,tensorflow.keras.metrics.RootMeanSquaredError,tensorflow.keras.Model,tensorflow.keras.optimizers.Adam</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -2032,7 +2032,7 @@ Type B</td>
 </tr>
 <tr><td>
 201</td>
-<td>tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow.data.Dataset.from_tensor_slices,tensorflow.io.decode_jpeg,tensorflow.io.read_file,tensorflow.keras.layers.Activation,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.Input,tensorflow.keras.layers.MaxPooling2D,tensorflow.keras.Model,tensorflow.keras.optimizers.Adam</td>
+<td>tensorflow.data.Dataset.from_tensor_slices,tensorflow.io.decode_jpeg,tensorflow.io.read_file,tensorflow.keras.layers.Activation,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.Input,tensorflow.keras.layers.MaxPooling2D,tensorflow.keras.Model,tensorflow.keras.optimizers.Adam</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -2041,7 +2041,7 @@ Type B</td>
 </tr>
 <tr><td>
 202</td>
-<td>tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow.keras.callbacks.EarlyStopping,tensorflow.keras.callbacks.LearningRateScheduler,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.GlobalMaxPooling2D,tensorflow.keras.layers.MaxPooling2D,tensorflow.keras.models.Sequential,tensorflow.keras.optimizers.Adam,tensorflow.keras.preprocessing.image.ImageDataGenerator,tensorflow.keras.preprocessing.image.load_img</td>
+<td>tensorflow.keras.callbacks.EarlyStopping,tensorflow.keras.callbacks.LearningRateScheduler,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.GlobalMaxPooling2D,tensorflow.keras.layers.MaxPooling2D,tensorflow.keras.models.Sequential,tensorflow.keras.optimizers.Adam,tensorflow.keras.preprocessing.image.ImageDataGenerator,tensorflow.keras.preprocessing.image.load_img</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -2077,7 +2077,7 @@ Type B</td>
 </tr>
 <tr><td>
 206</td>
-<td>tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow.cast,tensorflow.data.Dataset.from_tensor_slices,tensorflow.keras.callbacks.EarlyStopping,tensorflow.keras.layers.Bidirectional,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Embedding,tensorflow.keras.layers.experimental.preprocessing.TextVectorization,tensorflow.keras.layers.LSTM,tensorflow.keras.losses.MeanSquaredError,tensorflow.keras.models.Sequential,tensorflow.keras.optimizers.Adam</td>
+<td>tensorflow.cast,tensorflow.data.Dataset.from_tensor_slices,tensorflow.keras.callbacks.EarlyStopping,tensorflow.keras.layers.Bidirectional,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Embedding,tensorflow.keras.layers.experimental.preprocessing.TextVectorization,tensorflow.keras.layers.LSTM,tensorflow.keras.losses.MeanSquaredError,tensorflow.keras.models.Sequential,tensorflow.keras.optimizers.Adam</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -2095,7 +2095,7 @@ Type B</td>
 </tr>
 <tr><td>
 208</td>
-<td>tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow.keras.layers.concatenate,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Embedding,tensorflow.keras.layers.Input,tensorflow.keras.layers.Reshape,tensorflow.keras.models.Model</td>
+<td>tensorflow.keras.layers.concatenate,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Embedding,tensorflow.keras.layers.Input,tensorflow.keras.layers.Reshape,tensorflow.keras.models.Model</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -2104,7 +2104,7 @@ Type B</td>
 </tr>
 <tr><td>
 209</td>
-<td>tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow.keras.Input,tensorflow.keras.layers.concatenate,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.MaxPool2D,tensorflow.keras.layers.Reshape,tensorflow.keras.Model</td>
+<td>tensorflow.keras.Input,tensorflow.keras.layers.concatenate,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.MaxPool2D,tensorflow.keras.layers.Reshape,tensorflow.keras.Model</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -2122,7 +2122,7 @@ Type B</td>
 </tr>
 <tr><td>
 211</td>
-<td>tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow.keras.callbacks.EarlyStopping,tensorflow.keras.callbacks.ReduceLROnPlateau,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.LeakyReLU,tensorflow.keras.layers.MaxPool2D,tensorflow.keras.models.Sequential,tensorflow.keras.optimizers.Nadam,tensorflow.keras.preprocessing.image.ImageDataGenerator,tensorflow.keras.utils.to_categorical,tensorflow.losses.Huber</td>
+<td>tensorflow.keras.callbacks.EarlyStopping,tensorflow.keras.callbacks.ReduceLROnPlateau,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.LeakyReLU,tensorflow.keras.layers.MaxPool2D,tensorflow.keras.models.Sequential,tensorflow.keras.optimizers.Nadam,tensorflow.keras.preprocessing.image.ImageDataGenerator,tensorflow.keras.utils.to_categorical,tensorflow.losses.Huber</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -2131,7 +2131,7 @@ Type B</td>
 </tr>
 <tr><td>
 212</td>
-<td>tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow.keras.callbacks.EarlyStopping,tensorflow.keras.callbacks.ReduceLROnPlateau,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.MaxPooling2D,tensorflow.keras.models.Sequential</td>
+<td>tensorflow.keras.callbacks.EarlyStopping,tensorflow.keras.callbacks.ReduceLROnPlateau,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.MaxPooling2D,tensorflow.keras.models.Sequential</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -2140,7 +2140,7 @@ Type B</td>
 </tr>
 <tr><td>
 213</td>
-<td>tensorflow,tensorflow,tensorflow,tensorflow,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Flatten,tensorflow.keras.models.Sequential</td>
+<td>tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Flatten,tensorflow.keras.models.Sequential</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -2149,7 +2149,7 @@ Type B</td>
 </tr>
 <tr><td>
 214</td>
-<td>tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow.argmax,tensorflow.keras.callbacks.EarlyStopping,tensorflow.keras.callbacks.LearningRateScheduler,tensorflow.keras.callbacks.ModelCheckpoint,tensorflow.keras.layers.Activation,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.MaxPooling2D,tensorflow.keras.models.Sequential,tensorflow.keras.optimizers.Adam,tensorflow.keras.preprocessing.image.ImageDataGenerator,tensorflow.keras.utils.to_categorical</td>
+<td>tensorflow.argmax,tensorflow.keras.callbacks.EarlyStopping,tensorflow.keras.callbacks.LearningRateScheduler,tensorflow.keras.callbacks.ModelCheckpoint,tensorflow.keras.layers.Activation,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.MaxPooling2D,tensorflow.keras.models.Sequential,tensorflow.keras.optimizers.Adam,tensorflow.keras.preprocessing.image.ImageDataGenerator,tensorflow.keras.utils.to_categorical</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -2158,7 +2158,7 @@ Type B</td>
 </tr>
 <tr><td>
 215</td>
-<td>tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow.keras.layers.Dense,tensorflow.keras.layers.experimental.preprocessing.Normalization,tensorflow.keras.layers.Input,tensorflow.keras.optimizers.SGD,tensorflow.keras.Sequential</td>
+<td>tensorflow.keras.layers.Dense,tensorflow.keras.layers.experimental.preprocessing.Normalization,tensorflow.keras.layers.Input,tensorflow.keras.optimizers.SGD,tensorflow.keras.Sequential</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -2176,7 +2176,7 @@ Type B</td>
 </tr>
 <tr><td>
 217</td>
-<td>tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.MaxPooling2D,tensorflow.keras.models.Sequential,tensorflow.keras.optimizers.RMSprop,tensorflow.keras.preprocessing.image.ImageDataGenerator</td>
+<td>tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.MaxPooling2D,tensorflow.keras.models.Sequential,tensorflow.keras.optimizers.RMSprop,tensorflow.keras.preprocessing.image.ImageDataGenerator</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -2185,7 +2185,7 @@ Type B</td>
 </tr>
 <tr><td>
 218</td>
-<td>tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow.initializers.constant,tensorflow.initializers.TruncatedNormal,tensorflow.keras.callbacks.EarlyStopping,tensorflow.keras.callbacks.ReduceLROnPlateau,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Flatten,tensorflow.keras.optimizers.RMSprop,tensorflow.keras.preprocessing.image.ImageDataGenerator,tensorflow.keras.Sequential,tensorflow.keras.utils.to_categorical</td>
+<td>tensorflow.initializers.constant,tensorflow.initializers.TruncatedNormal,tensorflow.keras.callbacks.EarlyStopping,tensorflow.keras.callbacks.ReduceLROnPlateau,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Flatten,tensorflow.keras.optimizers.RMSprop,tensorflow.keras.preprocessing.image.ImageDataGenerator,tensorflow.keras.Sequential,tensorflow.keras.utils.to_categorical</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -2203,7 +2203,7 @@ Type B</td>
 </tr>
 <tr><td>
 220</td>
-<td>tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow.keras.callbacks.LearningRateScheduler,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.GlobalAveragePooling2D,tensorflow.keras.layers.MaxPooling2D,tensorflow.keras.models.Sequential,tensorflow.keras.preprocessing.image.ImageDataGenerator</td>
+<td>tensorflow.keras.callbacks.LearningRateScheduler,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.GlobalAveragePooling2D,tensorflow.keras.layers.MaxPooling2D,tensorflow.keras.models.Sequential,tensorflow.keras.preprocessing.image.ImageDataGenerator</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -2212,7 +2212,7 @@ Type B</td>
 </tr>
 <tr><td>
 221</td>
-<td>tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow.keras.callbacks.ModelCheckpoint,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.LeakyReLU,tensorflow.keras.layers.MaxPool2D,tensorflow.keras.models.load_model,tensorflow.keras.models.Sequential,tensorflow.keras.optimizers.Adam,tensorflow.keras.utils.to_categorical</td>
+<td>tensorflow.keras.callbacks.ModelCheckpoint,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.LeakyReLU,tensorflow.keras.layers.MaxPool2D,tensorflow.keras.models.load_model,tensorflow.keras.models.Sequential,tensorflow.keras.optimizers.Adam,tensorflow.keras.utils.to_categorical</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -2230,7 +2230,7 @@ Type B</td>
 </tr>
 <tr><td>
 223</td>
-<td>tensorflow,tensorflow,tensorflow.keras.layers.Dense,tensorflow.keras.models.Sequential</td>
+<td>tensorflow.keras.layers.Dense,tensorflow.keras.models.Sequential</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -2257,7 +2257,7 @@ Type B</td>
 </tr>
 <tr><td>
 226</td>
-<td>tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow.keras.layers.AlphaDropout,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Input,tensorflow.keras.losses.BinaryCrossentropy,tensorflow.keras.Sequential</td>
+<td>tensorflow.keras.layers.AlphaDropout,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Input,tensorflow.keras.losses.BinaryCrossentropy,tensorflow.keras.Sequential</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -2266,7 +2266,7 @@ Type B</td>
 </tr>
 <tr><td>
 227</td>
-<td>tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow.data.Dataset.from_tensor_slices,tensorflow.io.decode_jpeg,tensorflow.io.read_file,tensorflow.keras.layers.Activation,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.Input,tensorflow.keras.layers.MaxPooling2D,tensorflow.keras.Model,tensorflow.keras.optimizers.Adam</td>
+<td>tensorflow.data.Dataset.from_tensor_slices,tensorflow.io.decode_jpeg,tensorflow.io.read_file,tensorflow.keras.layers.Activation,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.Input,tensorflow.keras.layers.MaxPooling2D,tensorflow.keras.Model,tensorflow.keras.optimizers.Adam</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -2275,7 +2275,7 @@ Type B</td>
 </tr>
 <tr><td>
 228</td>
-<td>tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow.keras.callbacks.EarlyStopping,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.MaxPool2D,tensorflow.keras.models.Sequential,tensorflow.keras.utils.to_categorical</td>
+<td>tensorflow.keras.callbacks.EarlyStopping,tensorflow.keras.layers.BatchNormalization,tensorflow.keras.layers.Conv2D,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Flatten,tensorflow.keras.layers.MaxPool2D,tensorflow.keras.models.Sequential,tensorflow.keras.utils.to_categorical</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -2302,7 +2302,7 @@ Type B</td>
 </tr>
 <tr><td>
 231</td>
-<td>keras,keras,keras,keras,tensorflow,tensorflow,tensorflow,keras.callbacks.EarlyStopping,keras.callbacks.ModelCheckpoint,keras.callbacks.ReduceLROnPlateau,keras.wrappers.scikit_learn.KerasRegressor,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.Sequential</td>
+<td>keras,keras,keras,keras,tensorflow,keras.callbacks.EarlyStopping,keras.callbacks.ModelCheckpoint,keras.callbacks.ReduceLROnPlateau,keras.wrappers.scikit_learn.KerasRegressor,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.Sequential</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -2311,7 +2311,7 @@ Type B</td>
 </tr>
 <tr><td>
 232</td>
-<td>tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow,tensorflow.cast,tensorflow.config.list_physical_devices,tensorflow.data.Dataset.from_tensor_slices,tensorflow.data.Dataset.zip,tensorflow.keras.callbacks.EarlyStopping,tensorflow.keras.Input,tensorflow.keras.layers.concatenate,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.experimental.preprocessing.CategoryEncoding,tensorflow.keras.layers.experimental.preprocessing.Normalization,tensorflow.keras.layers.experimental.preprocessing.StringLookup,tensorflow.keras.losses.BinaryCrossentropy,tensorflow.keras.Model,tensorflow.keras.optimizers.Adam,tensorflow.keras.optimizers.RMSprop,tensorflow.stack</td>
+<td>tensorflow.cast,tensorflow.config.list_physical_devices,tensorflow.data.Dataset.from_tensor_slices,tensorflow.data.Dataset.zip,tensorflow.keras.callbacks.EarlyStopping,tensorflow.keras.Input,tensorflow.keras.layers.concatenate,tensorflow.keras.layers.Dense,tensorflow.keras.layers.Dropout,tensorflow.keras.layers.experimental.preprocessing.CategoryEncoding,tensorflow.keras.layers.experimental.preprocessing.Normalization,tensorflow.keras.layers.experimental.preprocessing.StringLookup,tensorflow.keras.losses.BinaryCrossentropy,tensorflow.keras.Model,tensorflow.keras.optimizers.Adam,tensorflow.keras.optimizers.RMSprop,tensorflow.stack</td>
 <td>Time,Memory</td>
 <td>
 </td>
@@ -2356,7 +2356,7 @@ Type B</td>
 </tr>
 <tr><td>
 237</td>
-<td>tensorflow,tensorflow,tensorflow.keras.layers.Dense,tensorflow.keras.Sequential</td>
+<td>tensorflow.keras.layers.Dense,tensorflow.keras.Sequential</td>
 <td>test,test</td>
 <td>
 </td>
@@ -2419,8 +2419,8 @@ Type B</td>
 </tr>
 <tr><td>
 244</td>
-<td>pandas,tensorflow,tensorflow.keras.optimizers.RMSprop</td>
-<td>score</td>
+<td>pandas,tensorflow.keras.optimizers.RMSprop</td>
+<td>NaN</td>
 <td>
 </td>
 <td>
@@ -2428,8 +2428,8 @@ Type B</td>
 </tr>
 <tr><td>
 245</td>
-<td>pandas,tensorflow,tensorflow.keras.layers.BatchNormalization</td>
-<td>score</td>
+<td>pandas,tensorflow.keras.layers.BatchNormalization</td>
+<td>NaN</td>
 <td>
 </td>
 <td>
