@@ -65,6 +65,7 @@ $tab-count: {{ site.tabs | size | plus: 1 }}; // plus 1 for home tab
   border: 0!important;
   line-height: 21px;
   box-shadow: none!important;
+  font-size: 0.7rem;
 }
 .dataTables_wrapper .dataTables_paginate .paginate_button:hover, .dataTables_wrapper .dataTables_paginate .paginate_button:focus {
   color: white !important;
