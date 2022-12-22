@@ -1,25 +1,47 @@
 [1:](https://www.kaggle.com/code/abdulaziz04/simple-approach-using-xgbclassifier/comments) oh wow!, do you know any reason as to why different versions act differently and can we replicate such results by tuning hyperparameters of a given version? Also this score is on the training set right?
+
 [2:](https://www.kaggle.com/code/akioonodera/tps-mar2022-lgbm-regression/comments) Great experiment.I was surprised that the runtimes were so different.
+
 [3:](https://www.kaggle.com/code/alexandershumilin/tabular-playground-series-aug-2022-nn-keras/comments#2011102) This is a very interesting observation!
+
 4: I am a newbie and appreciate your thought-provoking input!
+
 5: Happy to hear that it helped. Keep going.
+
 6: It is interesting that version 2.4.1 is better than 2.7.0. Also, the memory consumption of 2.7.0 is double of 2.4.1.
+
 7: Did not know that…. So cool!!! Thanks for choosing my nb and publishing the results.
+
 8: Cool, I didn't even know that. Appreciate your work !
+
 9: ohh, good to know
+
 10: your welcome 
+
 11: Interesting! I hadn't considered the role of xgboost version on memory usage! Thanks for pointing that out!
+
 12: Thanks! Really interesting analysis. Cool to see that catboost has gotten faster over time! Variations look pretty small, but I guess these are adjustments to the training algorithm over time that make the difference.
+
 13: that's extremely interesting as an experiment! From a data scientist point of view, reproducibility of the score across multiple versions of packages and different runs is indeed paramount!
+
 14: Is it really worth using an older version of TensorFlow?
+
 15: thank you as well for you're interest in the solution :)
+
 16: Great! Thank you for your sharing.
+
 17: Thanks for this valuable information, I will surely try and compare different versions.
+
 18: I highly appreciate your effort and the valuable information you shared, i can't be more appreciate
+
 19: Thanks for your research, interesting results. I think the reseat of slowing that new versions of catboos have more conditions and validations
+
 20: Thanks for letting me know.
+
 21: Thank you for letting me know the valuable information.
+
 22: Thank you for your insight!!
+
 23: Thanks alot for your notice, I didn't take this tip in consideration while training this model, and thanks for sharing your models' benchmarks.
 
 
