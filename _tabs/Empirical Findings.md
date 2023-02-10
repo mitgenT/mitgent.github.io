@@ -4,7 +4,6 @@ icon: fas fa-archive
 order: 3
 ---
 > Empirical findings of RQ3
-
 {: .prompt-info }
 
 [**Click for more details about empirical findings of RQ3.**](http://127.0.0.1:4000//posts/Empirical-Findings-RQ3/)
