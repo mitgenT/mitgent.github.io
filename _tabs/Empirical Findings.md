@@ -14,10 +14,10 @@ order: 3
 {: .prompt-info }
 
 <!-- ![gif](/assets/images/ML-Libs.gif) -->
-[**Click for more details about PLC issues repored to ML libraries.**](http://piecer-plc.github.io/posts/Empirical-Findings-ML-Libraries/)
+[**Click for more details about PLC issues reported to ML libraries.**](http://piecer-plc.github.io/posts/Empirical-Findings-ML-Libraries/)
 > PLC Issues Identified in 309 Real Pipelines
 {: .prompt-info }
-[**Click for more details about PLC issues repored to ML pipelines.**](http://piecer-plc.github.io/posts/Empirical-Findings-ML-Pipelines/)
+[**Click for more details about PLC issues reported to ML pipelines.**](http://piecer-plc.github.io/posts/Empirical-Findings-ML-Pipelines/)
 
 > GitHub and Hugging Face pipelines.
 {: .prompt-info }
