@@ -17,6 +17,9 @@ order: 4
 [**Download pipelines used in RQ2**](https://github.com/Piecer-plc/piecer-plc.github.io/blob/main/Data/Rq2_pipelines.csv)
 
 [**Download pipelines used in Empirical Findings**](https://github.com/Piecer-plc/piecer-plc.github.io/blob/main/Data/Findings_Pipeline.csv)
+
+[**Download pipelines used in RQ5 (Collected from GitHub and Hugging Face)**](http://piecer-plc.github.io/Data/IP.txt)
+
 ## Defective Repository
 > A defective repository
 {: .prompt-tip }
