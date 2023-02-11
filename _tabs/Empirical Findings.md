@@ -19,7 +19,7 @@ order: 3
 {: .prompt-info }
 [**Click for more details about PLC issues repored to ML pipelines.**](http://piecer-plc.github.io/posts/Empirical-Findings-ML-Pipelines/)
 
-> GitHub and Hugging Face models.
+> GitHub and Hugging Face pipelines.
 {: .prompt-info }
 [**Click for more details about real pipelines collected from GitHub and Hugging Face .**](http://piecer-plc.github.io//posts/Empirical-Findings-GH/)
 <div>
