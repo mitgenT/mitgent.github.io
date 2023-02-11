@@ -6,7 +6,7 @@ order: 3
 > Empirical findings of RQ3
 {: .prompt-info }
 
-[**Click for more details about empirical findings of RQ3.**](http://127.0.0.1:4000//posts/Empirical-Findings-RQ3/)
+[**Click for more details about empirical findings of RQ3.**](http://piecer-plc.github.io//posts/Empirical-Findings-RQ3/)
 
 
 
@@ -18,6 +18,10 @@ order: 3
 > PLC Issues Identified in 309 Real Pipelines
 {: .prompt-info }
 [**Click for more details about PLC issues repored to ML pipelines.**](http://piecer-plc.github.io/posts/Empirical-Findings-ML-Pipelines/)
+
+> GitHub and Hugging Face models.
+{: .prompt-info }
+[**Click for more details about real pipelines collected from GitHub and Hugging Face .**](http://piecer-plc.github.io//posts/Empirical-Findings-GH/)
 <div>
 <img src="/assets/images/ML-Bug_tu.gif" alt="avatar">
 </div>
