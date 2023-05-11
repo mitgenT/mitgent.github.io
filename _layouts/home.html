@@ -1,0 +1,72 @@
+---
+layout: page
+# The Home page layout
+---
+<div class="post-content">
+        Automated detection of software failures
+  is an important but challenging software engineering task. It
+  involves finding in a vast search space the failure-inducing tests
+  that contain an input triggering the software fault and an oracle
+  asserting the incorrect execution. We are motivated to study how
+  far this outstanding challenge can be solved by recent advances
+  in large language models (LLMs) such as ChatGPT. However,
+  our study reveals that ChatGPT has a relatively low success rate
+  (28.8%) in finding correct failure-inducing test cases for buggy
+  programs. A possible conjecture is that finding failure-inducing
+  test cases requires analyzing the subtle differences (nuances)
+  between the tokens for a program’s correct version and those
+  for its buggy version. When these two versions have similar sets
+  of tokens and attentions, ChatGPT is weak in distinguishing their
+  differences.
+  <br>
+  <br>
+  We find that ChatGPT can successfully generate failure-inducing test cases when it is guided to focus on the nuances. Our
+  solution is inspired by an interesting observation that ChatGPT
+  could infer the intended functionality of buggy code if it is similar
+  to the correct version. Driven by the inspiration, we develop a
+  novel technique, called <a href="https://differential-prompting.github.io/Differential-Prompting"><strong>Differential Prompting</strong></a>, to effectively find
+  failure-inducing test cases with the help of the compilable code
+  synthesized by the inferred intention. Prompts are constructed
+  based on the nuances between the given version and the synthesized code. We evaluate Differential Prompting on <a href="https://github.com/jkoppel/QuixBugs"><strong>Quixbugs</strong></a>
+  (a popular benchmark of buggy programs) and recent programs
+  published at <a href="https://codeforces.com/contest/1760"><strong>Codeforces</strong></a> (a popular programming contest portal,
+  which is also an official benchmark of ChatGPT). We compare
+  Differential Prompting with two baselines constructed using
+  conventional ChatGPT prompting and PYNGUIN (the state-of-the-art unit test generation tool for Python programs). Our evaluation results show that for programs of Quixbugs, Differential
+  Prompting can achieve a success rate of 75.0% in finding failure-inducing test cases, outperforming the best baseline by 2.6X. For
+  programs of Codeforces, Differential Prompting’s success rate
+  is 60.0%, outperforming the best baseline by 6.0X.
+
+</div>
+  <hr>
+  <div class="post-content">
+      <div class="logo">
+          <!-- <a href="https://differential-prompting.io/Differential-Prompting.html"> -->
+           <img src="/assets/images/tool.svg" alt="avatar" height="50" width="50">
+          <!-- </a> -->
+          <span>
+              <a href="https://differential-prompting.github.io/Differential-Prompting-s-Artifact/"><strong> Differential Prompting’s Artifact </strong></a><br>
+          </span>
+      </div>
+      <div class="logo">
+          <!-- <a href="https://differential-prompting.io/DAR.html"> -->
+           <img src="/assets/images/repository.svg" alt="avatar" height="50" width="50">
+          <!-- </a> -->
+          <span>
+              <a href="https://differential-prompting.github.io/Experimental-Dataset/">
+              <strong> Experimental Dataset <br></strong> 
+          </a>
+          </span>
+      </div>
+      <div class="logo">
+          
+           <img src="/assets/images/libraries.svg" alt="avatar" height="50" width="50">
+          
+          <span>
+              <a href="https://differential-prompting.github.io/Differential-Prompting-s-Artifact/">
+                  <strong> Demonstration Video <br></strong> 
+              </a>
+          </span>
+      </div>
+    </div>
+  
