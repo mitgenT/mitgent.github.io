@@ -31,7 +31,7 @@ order: 2
 
 [**Download 800 reference versions used in RQ3**](https://github.com/differential-prompting/differential-prompting.github.io/blob/main/Data/Reference%20versions/Reference%20versions-RQ3-Quixbugs.rar)
 
-[**Download 140 intentions used in RQ4**](https://github.com/differential-prompting/differential-prompting.github.io/blob/main/Data/Reference%20versions/Reference%20versions-RQ4-codeforces.rar)
+[**Download 140 reference versions used in RQ4**](https://github.com/differential-prompting/differential-prompting.github.io/blob/main/Data/Reference%20versions/Reference%20versions-RQ4-codeforces.rar)
 
 ## Codeforces Programs
 > A dataset of 14 Codeforces programs studied in RQ4.
