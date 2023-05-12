@@ -21,7 +21,7 @@ order: 2
 > A dataset of 470 intentions inferred by Differential Prompting.
 {: .prompt-tip }    
 
-[**Download 400 intentions used in RQ3**](https://github.com/differential-prompting/differential-prompting.github.io/blob/main/Data/Intentions/Intentions-RQ3-Quixbugs.rar)
+[**Download 400 intentions used in RQ2**](https://github.com/differential-prompting/differential-prompting.github.io/blob/main/Data/Intentions/Intentions-RQ2-Quixbugs.rar)
 
 [**Download 70 intentions used in RQ4**](https://github.com/differential-prompting/differential-prompting.github.io/blob/main/Data/Intentions/Intentions-RQ4-codeforces.rar)
 
@@ -29,7 +29,7 @@ order: 2
 > A dataset of 940 intentions inferred by Differential Prompting and baselines.
 {: .prompt-tip }
 
-[**Download 800 reference versions used in RQ2**](https://github.com/differential-prompting/differential-prompting.github.io/blob/main/Data/Reference%20versions/Reference%20versions-RQ2-Quixbugs.rar)
+[**Download 800 reference versions used in RQ3**](https://github.com/differential-prompting/differential-prompting.github.io/blob/main/Data/Reference%20versions/Reference%20versions-RQ3-Quixbugs.rar)
 
 [**Download 140 intentions used in RQ4**](https://github.com/differential-prompting/differential-prompting.github.io/blob/main/Data/Reference%20versions/Reference%20versions-RQ4-codeforces.rar)
 
