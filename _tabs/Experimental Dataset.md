@@ -6,7 +6,7 @@ order: 2
 
 
 ## Failure-Inducing Test Cases
-> A dataset of failure-inducing test cases found by Differential Prompting and baselines.
+> A dataset of failure-inducing test cases found by MitGen and baselines.
 {: .prompt-tip }
 
 [**Download 1200 failure-inducing test cases found from buggy program (RQ1)**](https://github.com/differential-prompting/differential-prompting.github.io/blob/main/Data/Failure-inducing%20test%20cases/Failure-inducing%20test%20cases-RQ1-buggy.rar)
@@ -18,15 +18,15 @@ order: 2
 [**Download 210 failure-inducing test cases found from correct program (RQ4)**](https://github.com/differential-prompting/differential-prompting.github.io/blob/main/Data/Failure-inducing%20test%20cases/Failure-inducing%20test%20cases-RQ4-correct.rar)
 
 ## Intentions
-> A dataset of 470 intentions inferred by Differential Prompting.
-{: .prompt-tip }    
+> A dataset of 470 intentions inferred by MitGen.
+{: .prompt-tip }
 
 [**Download 400 intentions used in RQ2**](https://github.com/differential-prompting/differential-prompting.github.io/blob/main/Data/Intentions/Intentions-RQ2-Quixbugs.rar)
 
 [**Download 70 intentions used in RQ4**](https://github.com/differential-prompting/differential-prompting.github.io/blob/main/Data/Intentions/Intentions-RQ4-codeforces.rar)
 
 ## Reference Versions
-> A dataset of 940 reference versions inferred by Differential Prompting and baselines.
+> A dataset of 940 reference versions inferred by MitGen and baselines.
 {: .prompt-tip }
 
 [**Download 800 reference versions used in RQ3**](https://github.com/differential-prompting/differential-prompting.github.io/blob/main/Data/Reference%20versions/Reference%20versions-RQ3-Quixbugs.rar)

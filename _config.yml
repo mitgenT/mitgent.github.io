@@ -18,18 +18,18 @@ timezone: Asia/Shanghai
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Differential Prompting                          # the main title
+title: MitGen                          # the main title
 
 tagline: Find Failing Tests Easier   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  Unlocking ChatGPT to Find Failing Tests with Differential Prompting.
+  Unlocking ChatGPT to Find Failing Tests with MitGen.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: 'https://differential-prompting.github.io'
+url: 'https://mitgent.github.io'
 
 github:
-  username: differential-prompting             # change to your github username
+  username: mitgenT             # change to your github username
 
 # twitter:
   # username: twitter_username            # change to your twitter username
