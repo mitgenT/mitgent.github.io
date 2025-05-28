@@ -3,39 +3,26 @@ layout: page
 # The Home page layout
 ---
 <div class="post-content">
-        Automated detection of software failures
-  is an important but challenging software engineering task. It
-  involves finding in a vast search space the failure-inducing tests
-  that contain an input triggering the software fault and an oracle
-  asserting the incorrect execution. We are motivated to study how
-  far this outstanding challenge can be solved by recent advances
-  in large language models (LLMs) such as <a href="https://openai.com/blog/chatgpt"><strong>ChatGPT</strong></a>. However,
-  our study reveals that ChatGPT has a relatively low success rate
-  (28.8%) in finding correct failure-inducing test cases for buggy
-  programs. A possible conjecture is that finding failure-inducing
-  test cases requires analyzing the subtle differences (nuances)
-  between the tokens for a program’s correct version and those
-  for its buggy version. When these two versions have similar sets
-  of tokens and attentions, ChatGPT is weak in distinguishing their
-  differences.
+  Failing test generation is challenging. It involves searching in a vast space for fault-triggering test inputs
+  and the oracles asserting these faulty executions. Despite techniques proposed to generate tests using large
+  language models (LLMs), they are ineffective in finding failing tests, particularly for programs that implement
+  non-trivial coding tasks such as medium/advanced-level coding contest problems.
   <br>
   <br>
-  We find that ChatGPT can successfully generate failure-inducing test cases when it is guided to focus on the nuances. Our
-  solution is inspired by an interesting observation that ChatGPT
-  could infer the intended functionality of buggy code if it is similar
-  to the correct version. Driven by the inspiration, we develop a
-  novel technique, called <a href="https://mitgent.github.io/MitGen-s-Artifact/"><strong>MitGen</strong></a>, to effectively find
-  failure-inducing test cases with the help of the compilable code
-  synthesized by the inferred intention. Prompts are constructed
-  based on the nuances between the given version and the synthesized code. We evaluate MitGen on <a href="https://github.com/jkoppel/QuixBugs"><strong>Quixbugs</strong></a>
-  (a popular benchmark of buggy programs) and recent programs
-  published at <a href="https://codeforces.com/"><strong>Codeforces</strong></a> (a popular programming contest portal,
-  which is also an official benchmark of ChatGPT). We compare
-  MitGen with two baselines constructed using
-  conventional ChatGPT prompting and <a href="https://github.com/se2p/pynguin"><strong>PYNGUIN</strong></a> (the state-of-the-art unit test generation tool for Python programs). Our evaluation results show that for programs of Quixbugs, MitGen
-  can achieve a success rate of 75.0% in finding failure-inducing test cases, outperforming the best baseline by 2.6X. For
-  programs of Codeforces, MitGen’s success rate
-  is 60.0%, outperforming the best baseline by 6.0X.
+  To tackle this limitation, we are inspired by an earlier finding that constituent snippets within a program
+  typically implement simpler coding tasks compared to the program as a whole. As a result, LLMs can be
+  leveraged to generate failing tests that target a program’s constituent snippets, thereby revealing the program
+  defects.
+  <br>
+  <br>
+  Leveraging this insight, we propose Microscopic Test Generation (MitGen), a novel paradigm of failing
+  test generation. Unlike previous approaches that generate tests to fulfill code coverage, MitGen focuses
+  on generating tests that reveal faults in a given program’s constituent code snippets. We evaluate MitGen
+  using Starcoder2-15B-instruct-v0.1, Meta-Llama-3-8B-Instruct and CodeQwen1.5-7B-Chat, on two popular
+  benchmarks (EvoEval-Difficult and ClassEval). We compare MitGen with three baselines, including state-of-
+  the-art approaches (Differential Prompting and Pynguin) in finding failing tests. The evaluation results show
+  that MitGen’s recall is 0.69, 86.4% enhancement over the best baseline (0.37). In addition, MitGen’s precision
+  (0.79) is favorably compared to the best baseline’s (0.71).
 
 </div>
   <hr>
