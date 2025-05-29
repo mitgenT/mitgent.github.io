@@ -6,74 +6,103 @@ order: 1
 
 # MitGen
 
-## Demo
-
-<iframe width="896" height="504" src="https://www.youtube.com/embed/BKdGuEy--UQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
 ## Description
 
-MitGen is an approach that can effectively find failure-inducing test cases with the help of the compliable code synthesized by the inferred intention. This command line tool allows users to interact with ChatGPT to automatically generate intention, code, and test input pools.
+MitGen is an approach that can effectively find failure-inducing test cases with the help of the compliable code synthesized by the provided intention. This command line tool allows users to interact with LLMs to automatically generate reference versions, code, and test input pools.
 
 ## Installation
 
-1. Clone or download our code to your local machine:
+Clone or download our code to your local machine:
 
    ```bash
-   git clone https://github.com/differential-prompting/dfprompting-database
-   ```
-
-2. Install the required packages:
-
-   ```bash
-   pip install -r requirements.txt
+   git clone https://github.com/mitgenT/MitGen.git
    ```
 
 ## Usage
 
-To use the command line tool, run the following command:
+Before using MitGen, you should set your own LLM API Key or local LLM.
+
+For API Key, please create a file api.py on `/mutation` and write:
+
+`[API Key Name] = [your_key]`
+
+API Key Name:
+- Qwen: qwen_api_key
+- ChatGPT: chatgpt_api_key
+- Llama: llama_api_key
+
+Details can be obtained from functions `prompt_*` in `/mutation/generate_code_with_llm.py`
+
+For local LLMs, please go to `GenerateCodeWithLLM.initialise_hf_model(), prompt_hf_model()` and add your LLM.
+
+Next, put the following files(mostly in plain text) into corresponding locations:
+
+- PUT: `/mutation/subjects/target_code`
+- argument: properties of PUT, in json format in `/mutation/subjects/args`. e.g.
+```json
+{
+  "mask_location": null,
+  "func_name": "make_palindrome",
+  "subject_type": "function"
+}
+```
+  - mask_location: For debug, just keep null.
+  - subject_type: Please refer to the following "input_mode" part.
+  - func_name: Function name of PUT. This can be omitted if the target code is not a function.
+- correct code: Bug-free version of PUT in `/mutation/subjects/correct_code`. This is for evaluation usage.
+- Docstring: In `/mutation/subjects/prompt`.
+- Test Case: In `/mutation/subjects/playground_template`. This is for evaluation usage. This can be omitted if the target
+code is not a class.
+
+To use the command line tool, run the following command first:
 
 ```bash
-python -m diffPrompt [OPTIONS] COMMAND [ARGS]...
+python mutation/run.py [target] [model] [mode] [input_mode]
 ```
 
 The available options and commands are:
 
-```
-Usage: python -m diffPrompt [OPTIONS] COMMAND [ARGS]...
+- target: file name of PUT, located in `/mutation/subjects/target_code`. (e.g. cf835.txt)
+- model: name of LLM, check `GenerateCodeWithLLM.prompt_llm()` (for API) or `initialise_hf_model() and prompt_hf_model()`
+(for local LLMs) for details.
+- mode: just input "ast"
+- input_mode:
+  - If your target code accepts input from command line, input "console".
+  - If your target code accepts input from function parameters, input "function".
+  - If your target code is a class, input "class".
 
-Options:
-  --version         Show the version and exit.
-  --model TEXT      The OpenAI model type.
-  --code_path TEXT  The code path which need to be tested.
-  --proxy TEXT      Weather use proxy.
-  --help            Show this message and exit.
+The above command performs the following operations in our paper:
 
-Commands:
-  update  Update the OpenAI API key.
-```
+- Stage 1 of CamPri: Parse a PUT into an AST
+- Stage 3 of CamPri: Generate test inputs(seed inputs only)
+- Stage 1 of IRVGen: Generate reference versions
 
-#### Example
+Parsed AST code will be saved in `/mutation/subjects/input`, reference versions will be saved in
+`/mutation/subjects/output`, seed inputs will be saved in `/mutation/subjects/test_input`.
 
-Update an OpenAI API key:
-
-```bash
-python -m diffPrompt update
-```
-
-Generate intention, codes and test inputs pool for given code.
+Next, run the following command:
 
 ```bash
- python -m diffPrompt --code_path example\example_code.py --proxy True
-
- ---
- Generate intention
- Waiting for chatgpt...
- ....
- ....
- ....
- Done and save the results in :Results/example_code.py_dbd51d
+python mutation/prioritization.py [model]
 ```
 
-Once the command is executed, the results will be saved in the `Results` directory.
+The above command performs the following operations in our paper:
+
+- Stage 2 of CamPri: Infill each masked location.
+- Stage 4 of CamPri: Compute context similarity between generated snippets and original snippet.
+- Stage 5 of CamPri: Prioritize masked location.
+
+Finally, run the following command:
+
+```bash
+python mutation/end2end.py
+```
+
+The above command performs the following operations in our paper:
+
+- Stage 2 of IRVGen: Infer an expected output.
+- Stage 3 of IRVGen: Compare actual output and expected output.
+
+Once the command is executed, the results will be saved in the `output` directory.
 
 Overall, this optimized instruction should be easier for users to understand and follow.
