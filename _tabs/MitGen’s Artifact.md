@@ -22,7 +22,7 @@ Clone or download our code to your local machine:
 
 Before using MitGen, you should set your own LLM API Key or local LLM.
 
-For API Key, please create a file api.py on `/mutation` and write:
+For API Key, please create a file api.py on `mutation` directory and write:
 
 `[API Key Name] = [your_key]`
 
@@ -31,14 +31,14 @@ API Key Name:
 - ChatGPT: chatgpt_api_key
 - Llama: llama_api_key
 
-Details can be obtained from functions `prompt_*` in `/mutation/generate_code_with_llm.py`
+Details can be obtained from functions `prompt_*` in `mutation/generate_code_with_llm.py`
 
 For local LLMs, please go to `GenerateCodeWithLLM.initialise_hf_model(), prompt_hf_model()` and add your LLM.
 
 Next, put the following files(mostly in plain text) into corresponding locations:
 
-- PUT: `/mutation/subjects/target_code`
-- argument: properties of PUT, in json format in `/mutation/subjects/args`. e.g.
+- PUT: `mutation/subjects/target_code`
+- argument: properties of PUT, in json format in `mutation/subjects/args`. e.g.
 ```json
 {
   "mask_location": null,
@@ -49,9 +49,9 @@ Next, put the following files(mostly in plain text) into corresponding locations
   - mask_location: For debug, just keep null.
   - subject_type: Please refer to the following "input_mode" part.
   - func_name: Function name of PUT. This can be omitted if the target code is not a function.
-- correct code: Bug-free version of PUT in `/mutation/subjects/correct_code`. This is for evaluation usage.
-- Docstring: In `/mutation/subjects/prompt`.
-- Test Case: In `/mutation/subjects/playground_template`. This is for evaluation usage. This can be omitted if the target
+- correct code: Bug-free version of PUT in `mutation/subjects/correct_code`. This is for evaluation usage.
+- Docstring: In `mutation/subjects/prompt`.
+- Test Case: In `mutation/subjects/playground_template`. This is for evaluation usage. This can be omitted if the target
 code is not a class.
 
 To use the command line tool, run the following command first:
@@ -62,7 +62,7 @@ python mutation/run.py [target] [model] [mode] [input_mode]
 
 The available options and commands are:
 
-- target: file name of PUT, located in `/mutation/subjects/target_code`. (e.g. cf835.txt)
+- target: file name of PUT, located in `mutation/subjects/target_code`. (e.g. cf835.txt)
 - model: name of LLM, check `GenerateCodeWithLLM.prompt_llm()` (for API) or `initialise_hf_model() and prompt_hf_model()`
 (for local LLMs) for details.
 - mode: just input "ast"
@@ -77,8 +77,8 @@ The above command performs the following operations in our paper:
 - Stage 3 of CamPri: Generate test inputs(seed inputs only)
 - Stage 1 of IRVGen: Generate reference versions
 
-Parsed AST code will be saved in `/mutation/subjects/input`, reference versions will be saved in
-`/mutation/subjects/output`, seed inputs will be saved in `/mutation/subjects/test_input`.
+Parsed AST code will be saved in `mutation/subjects/input`, reference versions will be saved in
+`mutation/subjects/output`, seed inputs will be saved in `mutation/subjects/test_input`.
 
 Next, run the following command:
 
@@ -92,6 +92,9 @@ The above command performs the following operations in our paper:
 - Stage 4 of CamPri: Compute context similarity between generated snippets and original snippet.
 - Stage 5 of CamPri: Prioritize masked location.
 
+The result will be saved in the
+`mutation/subjects/output/c1/prioritization/{target_id_without_extension}/{model}/dataframe/final.csv`
+
 Finally, run the following command:
 
 ```bash
@@ -104,5 +107,6 @@ The above command performs the following operations in our paper:
 - Stage 3 of IRVGen: Compare actual output and expected output.
 
 Once the command is executed, the results will be saved in the `output` directory.
+Failing tests will be saved in `mutation/subjects/resultant_arguments`
 
 Overall, this optimized instruction should be easier for users to understand and follow.
