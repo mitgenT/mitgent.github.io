@@ -23,7 +23,7 @@ order: 2
 
 [**Download rankings of mask locations used in RQ3**](https://github.com/mitgenT/mitgent.github.io/blob/main/Data/Rank_of_Mask_Locations/Rank_of_Mask_Locations.zip)
 
-## EvoEval ClassEval, Real-world Subjects
+## EvoEval, ClassEval, Real-world Subjects
 > The dataset of evaluation subjects.
 {: .prompt-tip }
 
